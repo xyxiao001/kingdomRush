@@ -1,0 +1,2402 @@
+{
+  "entries": {
+    "enemy_fat_orc": {
+      "view": {
+        "ts": 580.37853333332,
+        "r": 0,
+        "id": "99431",
+        "class": "class NotificationView",
+        "hidden": false,
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "colors": [],
+        "pos": {
+          "y": 384,
+          "x": 682.66666666667
+        },
+        "anchor": {
+          "y": 149.33333333333,
+          "x": 320
+        },
+        "alpha": 1,
+        "children": [
+          {
+            "ts": 0.5,
+            "r": 0,
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "class": "class KImageView",
+            "hidden": false,
+            "alpha": 1,
+            "pos": {
+              "y": 40,
+              "x": 80
+            },
+            "id": "99494",
+            "colors": [],
+            "image_name": "notifications_tit_newenemy_bg",
+            "anchor": {
+              "y": 71.111111111111,
+              "x": 0
+            },
+            "children": [
+              {
+                "text_offset": {
+                  "y": 0,
+                  "x": 0
+                },
+                "_font_scale": 1.40625,
+                "text_size": {
+                  "y": 38,
+                  "x": 208
+                },
+                "text_align": "center",
+                "class": "class GGShaderLabel",
+                "alpha": 1,
+                "font_metrics": {
+                  "baseline": 39,
+                  "name": "JIMOJW",
+                  "ascent": 38,
+                  "height": 49,
+                  "descent": -12
+                },
+                "wrapped_lines": [
+                  "新敌人！"
+                ],
+                "anchor": {
+                  "y": 0,
+                  "x": 104
+                },
+                "font_name": "h_noti",
+                "children": [],
+                "size": {
+                  "y": 38,
+                  "x": 208
+                },
+                "fit_lines": 1,
+                "vertical_align": "middle",
+                "ts": 0.5,
+                "r": 0,
+                "id": "99495",
+                "text": "新敌人！",
+                "font_adj": {
+                  "middle": 2.025
+                },
+                "font_size": 24,
+                "hidden": false,
+                "colors": {
+                  "text_shadow": [
+                    0,
+                    0,
+                    0,
+                    255
+                  ],
+                  "text": [
+                    247,
+                    244,
+                    185
+                  ]
+                },
+                "text_shadow_offset": {
+                  "y": 1,
+                  "x": 1
+                },
+                "scale": {
+                  "y": 1,
+                  "x": 1
+                },
+                "line_height": 1,
+                "pos": {
+                  "y": 16,
+                  "x": 128
+                },
+                "source_lines": [
+                  "新敌人！"
+                ],
+                "text_shadow": true
+              }
+            ],
+            "size": {
+              "y": 71.111111111111,
+              "x": 256
+            }
+          },
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "line_height": 1,
+            "text_align": "center",
+            "class": "class GGButton",
+            "click_image_name": "notifications_but_dark_bg_0002",
+            "hover_image_name": "notifications_but_dark_bg_0002",
+            "anchor": {
+              "y": 0,
+              "x": 71.111111111111
+            },
+            "children": [
+              {
+                "text_offset": {
+                  "y": 0,
+                  "x": 0
+                },
+                "_font_scale": 1.40625,
+                "text_size": {
+                  "y": 34,
+                  "x": 102.22222222222
+                },
+                "text_align": "center",
+                "class": "class GGShaderLabel",
+                "alpha": 1,
+                "font_metrics": {
+                  "baseline": 38,
+                  "name": "AlibabaPuHuiTi-3-55-Regular",
+                  "ascent": 37,
+                  "height": 48,
+                  "descent": -12
+                },
+                "wrapped_lines": [
+                  "好的！"
+                ],
+                "anchor": {
+                  "y": 0,
+                  "x": 0
+                },
+                "font_name": "body",
+                "children": [],
+                "size": {
+                  "y": 34,
+                  "x": 102.22222222222
+                },
+                "fit_lines": 1,
+                "vertical_align": "middle",
+                "ts": 0.5,
+                "r": 0,
+                "id": "99497",
+                "text": "好的！",
+                "font_adj": {
+                  "top": 3.9375
+                },
+                "font_size": 20,
+                "hidden": false,
+                "colors": {
+                  "text_shadow": [
+                    0,
+                    0,
+                    0,
+                    255
+                  ],
+                  "text": [
+                    255,
+                    254,
+                    200
+                  ]
+                },
+                "text_shadow_offset": {
+                  "y": 1,
+                  "x": 1
+                },
+                "scale": {
+                  "y": 1,
+                  "x": 1
+                },
+                "line_height": 1,
+                "pos": {
+                  "y": 14,
+                  "x": 20
+                },
+                "source_lines": [
+                  "好的！"
+                ],
+                "text_shadow": true
+              }
+            ],
+            "size": {
+              "y": 62.577777777778,
+              "x": 142.22222222222
+            },
+            "ts": 0.5,
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "r": 0,
+            "id": "99496",
+            "text": "",
+            "alpha": 1,
+            "text_size": {
+              "y": 62.577777777778,
+              "x": 142.22222222222
+            },
+            "hidden": false,
+            "colors": {
+              "text": [
+                0,
+                0,
+                0
+              ]
+            },
+            "image_name": "notifications_but_dark_bg_0001",
+            "default_image_name": "notifications_but_dark_bg_0001",
+            "pos": {
+              "y": 254,
+              "x": 475
+            }
+          },
+          {
+            "ts": 0.5,
+            "r": 0,
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "class": "class KImageView",
+            "hidden": false,
+            "alpha": 1,
+            "pos": {
+              "y": 0,
+              "x": 0
+            },
+            "id": "99488",
+            "colors": [],
+            "image_name": "notifications_newenemy",
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "children": [],
+            "size": {
+              "y": 298.66666666667,
+              "x": 640
+            }
+          },
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 36,
+              "x": 320
+            },
+            "text_align": "left",
+            "class": "class GGLabel",
+            "font_metrics": {
+              "baseline": 48,
+              "name": "AlibabaPuHuiTi-3-55-Regular",
+              "ascent": 46,
+              "height": 60,
+              "descent": -15
+            },
+            "wrapped_lines": [
+              "兽人"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "font_name": "body_slides",
+            "children": [],
+            "size": {
+              "y": 36,
+              "x": 320
+            },
+            "alpha": 1,
+            "ts": 0.5,
+            "fit_lines": 1,
+            "r": 0,
+            "id": "99489",
+            "text": "兽人",
+            "font_adj": {
+              "top": 6.69375
+            },
+            "font_size": 28,
+            "hidden": false,
+            "colors": {
+              "text": [
+                24,
+                26,
+                15,
+                255
+              ],
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "line_height": 1,
+            "pos": {
+              "y": 50,
+              "x": 255
+            },
+            "source_lines": [
+              "兽人"
+            ],
+            "text_shadow": false
+          },
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 100,
+              "x": 320
+            },
+            "text_align": "left",
+            "class": "class GGLabel",
+            "font_metrics": {
+              "baseline": 33,
+              "name": "AlibabaPuHuiTi-3-55-Regular",
+              "ascent": 31,
+              "height": 41,
+              "descent": -10
+            },
+            "wrapped_lines": [
+              "具有轻型护甲的强悍野蛮",
+              "人。"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "font_name": "body_slides",
+            "children": [],
+            "size": {
+              "y": 100,
+              "x": 320
+            },
+            "ts": 0.5,
+            "hidden": false,
+            "r": 0,
+            "id": "99490",
+            "text": "具有轻型护甲的强悍野蛮人。",
+            "font_adj": {
+              "top": 4.5421875
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "font_size": 19,
+            "colors": {
+              "text": [
+                24,
+                26,
+                15,
+                255
+              ],
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "alpha": 1,
+            "line_height": 0.8,
+            "pos": {
+              "y": 86,
+              "x": 255
+            },
+            "source_lines": [
+              "具有轻型护甲的强悍野蛮",
+              "人。"
+            ],
+            "text_shadow": false
+          },
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 90,
+              "x": 320
+            },
+            "text_align": "left",
+            "class": "class GGLabel",
+            "font_metrics": {
+              "baseline": 22,
+              "name": "AlibabaPuHuiTi-3-55-Regular",
+              "ascent": 22,
+              "height": 28,
+              "descent": -7
+            },
+            "wrapped_lines": [
+              "* 轻甲",
+              "* 慢速"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "font_name": "body_slides",
+            "children": [],
+            "size": {
+              "y": 90,
+              "x": 320
+            },
+            "ts": 0.5,
+            "hidden": false,
+            "r": 0,
+            "id": "99491",
+            "text": "* 轻甲\n* 慢速",
+            "font_adj": {
+              "top": 3.1078125
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "font_size": 13,
+            "colors": {
+              "text": [
+                146,
+                25,
+                0,
+                255
+              ],
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "alpha": 1,
+            "line_height": 0.85,
+            "pos": {
+              "y": 187,
+              "x": 255
+            },
+            "source_lines": [
+              "* 轻甲",
+              "* 慢速"
+            ],
+            "text_shadow": false
+          },
+          {
+            "ts": 0.5,
+            "r": 0.13089969389957,
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "class": "class KImageView",
+            "hidden": false,
+            "alpha": 1,
+            "pos": {
+              "y": 160,
+              "x": 134
+            },
+            "id": "99492",
+            "colors": [],
+            "image_name": "encyclopedia_creeps_0102",
+            "anchor": {
+              "y": 87.822222222222,
+              "x": 92.444444444444
+            },
+            "children": [
+              {
+                "ts": 0.5,
+                "r": 0,
+                "scale": {
+                  "y": 1,
+                  "x": 1
+                },
+                "class": "class KImageView",
+                "hidden": false,
+                "alpha": 1,
+                "pos": {
+                  "y": -25.955555555556,
+                  "x": -24.888888888889
+                },
+                "id": "99493",
+                "colors": [],
+                "image_name": "notifications_polaroid_overlay",
+                "anchor": {
+                  "y": 0,
+                  "x": 0
+                },
+                "children": [],
+                "size": {
+                  "y": 227.55555555556,
+                  "x": 234.66666666667
+                }
+              }
+            ],
+            "size": {
+              "y": 175.64444444444,
+              "x": 184.88888888889
+            }
+          }
+        ],
+        "size": {
+          "y": 298.66666666667,
+          "x": 640
+        }
+      },
+      "icon": {
+        "ts": 0.83333333333333,
+        "r": 0,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "class": "class NotificationIcon",
+        "hidden": false,
+        "alpha": 1,
+        "pos": {
+          "x": 0,
+          "y": 0
+        },
+        "id": "99486",
+        "colors": [],
+        "image_name": "alert_creep_notxt_0102",
+        "anchor": {
+          "y": 32.711111111111,
+          "x": 39.822222222222
+        },
+        "children": [
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 30,
+              "x": 119
+            },
+            "text_align": "center",
+            "class": "class GGShaderLabel",
+            "alpha": 1,
+            "font_metrics": {
+              "baseline": 27,
+              "name": "JIMOJW",
+              "ascent": 27,
+              "height": 34,
+              "descent": -9
+            },
+            "wrapped_lines": [
+              "新敌人"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 59.5
+            },
+            "font_name": "h_noti",
+            "children": [],
+            "size": {
+              "y": 30,
+              "x": 119
+            },
+            "fit_lines": 1,
+            "vertical_align": "bottom",
+            "ts": 0.83333333333333,
+            "r": 0,
+            "id": "99487",
+            "text": "新敌人",
+            "font_adj": {
+              "middle": 1.434375
+            },
+            "font_size": 17,
+            "hidden": false,
+            "colors": {
+              "text": [
+                253,
+                248,
+                73
+              ],
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "line_height": 1,
+            "pos": {
+              "y": -13,
+              "x": 35.822222222222
+            },
+            "source_lines": [
+              "新敌人"
+            ],
+            "text_shadow": true
+          }
+        ],
+        "size": {
+          "y": 65.422222222222,
+          "x": 79.644444444444
+        }
+      },
+      "queue": {
+        "y": 100,
+        "x": 80
+      }
+    },
+    "enemy_goblin": {
+      "view": {
+        "ts": 579.04519999999,
+        "r": 0,
+        "id": "99431",
+        "class": "class NotificationView",
+        "hidden": false,
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "colors": [],
+        "pos": {
+          "y": 384,
+          "x": 682.66666666667
+        },
+        "anchor": {
+          "y": 149.33333333333,
+          "x": 320
+        },
+        "alpha": 1,
+        "children": [
+          {
+            "ts": 0.5,
+            "r": 0,
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "class": "class KImageView",
+            "hidden": false,
+            "alpha": 1,
+            "pos": {
+              "y": 40,
+              "x": 80
+            },
+            "id": "99482",
+            "colors": [],
+            "image_name": "notifications_tit_newenemy_bg",
+            "anchor": {
+              "y": 71.111111111111,
+              "x": 0
+            },
+            "children": [
+              {
+                "text_offset": {
+                  "y": 0,
+                  "x": 0
+                },
+                "_font_scale": 1.40625,
+                "text_size": {
+                  "y": 38,
+                  "x": 208
+                },
+                "text_align": "center",
+                "class": "class GGShaderLabel",
+                "alpha": 1,
+                "font_metrics": {
+                  "baseline": 39,
+                  "name": "JIMOJW",
+                  "ascent": 38,
+                  "height": 49,
+                  "descent": -12
+                },
+                "wrapped_lines": [
+                  "新敌人！"
+                ],
+                "anchor": {
+                  "y": 0,
+                  "x": 104
+                },
+                "font_name": "h_noti",
+                "children": [],
+                "size": {
+                  "y": 38,
+                  "x": 208
+                },
+                "fit_lines": 1,
+                "vertical_align": "middle",
+                "ts": 0.5,
+                "r": 0,
+                "id": "99483",
+                "text": "新敌人！",
+                "font_adj": {
+                  "middle": 2.025
+                },
+                "font_size": 24,
+                "hidden": false,
+                "colors": {
+                  "text_shadow": [
+                    0,
+                    0,
+                    0,
+                    255
+                  ],
+                  "text": [
+                    247,
+                    244,
+                    185
+                  ]
+                },
+                "text_shadow_offset": {
+                  "y": 1,
+                  "x": 1
+                },
+                "scale": {
+                  "y": 1,
+                  "x": 1
+                },
+                "line_height": 1,
+                "pos": {
+                  "y": 16,
+                  "x": 128
+                },
+                "source_lines": [
+                  "新敌人！"
+                ],
+                "text_shadow": true
+              }
+            ],
+            "size": {
+              "y": 71.111111111111,
+              "x": 256
+            }
+          },
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "line_height": 1,
+            "text_align": "center",
+            "class": "class GGButton",
+            "click_image_name": "notifications_but_dark_bg_0002",
+            "hover_image_name": "notifications_but_dark_bg_0002",
+            "anchor": {
+              "y": 0,
+              "x": 71.111111111111
+            },
+            "children": [
+              {
+                "text_offset": {
+                  "y": 0,
+                  "x": 0
+                },
+                "_font_scale": 1.40625,
+                "text_size": {
+                  "y": 34,
+                  "x": 102.22222222222
+                },
+                "text_align": "center",
+                "class": "class GGShaderLabel",
+                "alpha": 1,
+                "font_metrics": {
+                  "baseline": 38,
+                  "name": "AlibabaPuHuiTi-3-55-Regular",
+                  "ascent": 37,
+                  "height": 48,
+                  "descent": -12
+                },
+                "wrapped_lines": [
+                  "好的！"
+                ],
+                "anchor": {
+                  "y": 0,
+                  "x": 0
+                },
+                "font_name": "body",
+                "children": [],
+                "size": {
+                  "y": 34,
+                  "x": 102.22222222222
+                },
+                "fit_lines": 1,
+                "vertical_align": "middle",
+                "ts": 0.5,
+                "r": 0,
+                "id": "99485",
+                "text": "好的！",
+                "font_adj": {
+                  "top": 3.9375
+                },
+                "font_size": 20,
+                "hidden": false,
+                "colors": {
+                  "text_shadow": [
+                    0,
+                    0,
+                    0,
+                    255
+                  ],
+                  "text": [
+                    255,
+                    254,
+                    200
+                  ]
+                },
+                "text_shadow_offset": {
+                  "y": 1,
+                  "x": 1
+                },
+                "scale": {
+                  "y": 1,
+                  "x": 1
+                },
+                "line_height": 1,
+                "pos": {
+                  "y": 14,
+                  "x": 20
+                },
+                "source_lines": [
+                  "好的！"
+                ],
+                "text_shadow": true
+              }
+            ],
+            "size": {
+              "y": 62.577777777778,
+              "x": 142.22222222222
+            },
+            "ts": 0.5,
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "r": 0,
+            "id": "99484",
+            "text": "",
+            "alpha": 1,
+            "text_size": {
+              "y": 62.577777777778,
+              "x": 142.22222222222
+            },
+            "hidden": false,
+            "colors": {
+              "text": [
+                0,
+                0,
+                0
+              ]
+            },
+            "image_name": "notifications_but_dark_bg_0001",
+            "default_image_name": "notifications_but_dark_bg_0001",
+            "pos": {
+              "y": 254,
+              "x": 475
+            }
+          },
+          {
+            "ts": 0.5,
+            "r": 0,
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "class": "class KImageView",
+            "hidden": false,
+            "alpha": 1,
+            "pos": {
+              "y": 0,
+              "x": 0
+            },
+            "id": "99476",
+            "colors": [],
+            "image_name": "notifications_newenemy",
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "children": [],
+            "size": {
+              "y": 298.66666666667,
+              "x": 640
+            }
+          },
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 36,
+              "x": 320
+            },
+            "text_align": "left",
+            "class": "class GGLabel",
+            "font_metrics": {
+              "baseline": 48,
+              "name": "AlibabaPuHuiTi-3-55-Regular",
+              "ascent": 46,
+              "height": 60,
+              "descent": -15
+            },
+            "wrapped_lines": [
+              "哥布林"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "font_name": "body_slides",
+            "children": [],
+            "size": {
+              "y": 36,
+              "x": 320
+            },
+            "alpha": 1,
+            "ts": 0.5,
+            "fit_lines": 1,
+            "r": 0,
+            "id": "99477",
+            "text": "哥布林",
+            "font_adj": {
+              "top": 6.69375
+            },
+            "font_size": 28,
+            "hidden": false,
+            "colors": {
+              "text": [
+                24,
+                26,
+                15,
+                255
+              ],
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "line_height": 1,
+            "pos": {
+              "y": 50,
+              "x": 255
+            },
+            "source_lines": [
+              "哥布林"
+            ],
+            "text_shadow": false
+          },
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 100,
+              "x": 320
+            },
+            "text_align": "left",
+            "class": "class GGLabel",
+            "font_metrics": {
+              "baseline": 33,
+              "name": "AlibabaPuHuiTi-3-55-Regular",
+              "ascent": 31,
+              "height": 41,
+              "descent": -10
+            },
+            "wrapped_lines": [
+              "矮小而邪恶的类人生物，",
+              "不具备任何特别能力。"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "font_name": "body_slides",
+            "children": [],
+            "size": {
+              "y": 100,
+              "x": 320
+            },
+            "ts": 0.5,
+            "hidden": false,
+            "r": 0,
+            "id": "99478",
+            "text": "矮小而邪恶的类人生物，不具备任何特别能力。",
+            "font_adj": {
+              "top": 4.5421875
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "font_size": 19,
+            "colors": {
+              "text": [
+                24,
+                26,
+                15,
+                255
+              ],
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "alpha": 1,
+            "line_height": 0.8,
+            "pos": {
+              "y": 86,
+              "x": 255
+            },
+            "source_lines": [
+              "矮小而邪恶的类人生物，",
+              "不具备任何特别能力。"
+            ],
+            "text_shadow": false
+          },
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 90,
+              "x": 320
+            },
+            "text_align": "left",
+            "class": "class GGLabel",
+            "font_metrics": {
+              "baseline": 22,
+              "name": "AlibabaPuHuiTi-3-55-Regular",
+              "ascent": 22,
+              "height": 28,
+              "descent": -7
+            },
+            "wrapped_lines": [
+              "* 低生命值",
+              "* 中速"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "font_name": "body_slides",
+            "children": [],
+            "size": {
+              "y": 90,
+              "x": 320
+            },
+            "ts": 0.5,
+            "hidden": false,
+            "r": 0,
+            "id": "99479",
+            "text": "* 低生命值\n* 中速",
+            "font_adj": {
+              "top": 3.1078125
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "font_size": 13,
+            "colors": {
+              "text": [
+                146,
+                25,
+                0,
+                255
+              ],
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "alpha": 1,
+            "line_height": 0.85,
+            "pos": {
+              "y": 187,
+              "x": 255
+            },
+            "source_lines": [
+              "* 低生命值",
+              "* 中速"
+            ],
+            "text_shadow": false
+          },
+          {
+            "ts": 0.5,
+            "r": 0.13089969389957,
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "class": "class KImageView",
+            "hidden": false,
+            "alpha": 1,
+            "pos": {
+              "y": 160,
+              "x": 134
+            },
+            "id": "99480",
+            "colors": [],
+            "image_name": "encyclopedia_creeps_0101",
+            "anchor": {
+              "y": 87.822222222222,
+              "x": 92.444444444444
+            },
+            "children": [
+              {
+                "ts": 0.5,
+                "r": 0,
+                "scale": {
+                  "y": 1,
+                  "x": 1
+                },
+                "class": "class KImageView",
+                "hidden": false,
+                "alpha": 1,
+                "pos": {
+                  "y": -25.955555555556,
+                  "x": -24.888888888889
+                },
+                "id": "99481",
+                "colors": [],
+                "image_name": "notifications_polaroid_overlay",
+                "anchor": {
+                  "y": 0,
+                  "x": 0
+                },
+                "children": [],
+                "size": {
+                  "y": 227.55555555556,
+                  "x": 234.66666666667
+                }
+              }
+            ],
+            "size": {
+              "y": 175.64444444444,
+              "x": 184.88888888889
+            }
+          }
+        ],
+        "size": {
+          "y": 298.66666666667,
+          "x": 640
+        }
+      },
+      "icon": {
+        "ts": 0.83333333333333,
+        "r": 0,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "class": "class NotificationIcon",
+        "hidden": false,
+        "alpha": 1,
+        "pos": {
+          "x": 0,
+          "y": 0
+        },
+        "id": "99474",
+        "colors": [],
+        "image_name": "alert_creep_notxt_0101",
+        "anchor": {
+          "y": 32.711111111111,
+          "x": 39.822222222222
+        },
+        "children": [
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 30,
+              "x": 119
+            },
+            "text_align": "center",
+            "class": "class GGShaderLabel",
+            "alpha": 1,
+            "font_metrics": {
+              "baseline": 27,
+              "name": "JIMOJW",
+              "ascent": 27,
+              "height": 34,
+              "descent": -9
+            },
+            "wrapped_lines": [
+              "新敌人"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 59.5
+            },
+            "font_name": "h_noti",
+            "children": [],
+            "size": {
+              "y": 30,
+              "x": 119
+            },
+            "fit_lines": 1,
+            "vertical_align": "bottom",
+            "ts": 0.83333333333333,
+            "r": 0,
+            "id": "99475",
+            "text": "新敌人",
+            "font_adj": {
+              "middle": 1.434375
+            },
+            "font_size": 17,
+            "hidden": false,
+            "colors": {
+              "text": [
+                253,
+                248,
+                73
+              ],
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "line_height": 1,
+            "pos": {
+              "y": -13,
+              "x": 35.822222222222
+            },
+            "source_lines": [
+              "新敌人"
+            ],
+            "text_shadow": true
+          }
+        ],
+        "size": {
+          "y": 65.422222222222,
+          "x": 79.644444444444
+        }
+      },
+      "queue": {
+        "y": 100,
+        "x": 80
+      }
+    }
+  },
+  "tipUpgrades": {
+    "ts": 150.47183333333,
+    "r": 0,
+    "id": "100839",
+    "class": "class NotificationView",
+    "hidden": false,
+    "scale": {
+      "y": 1,
+      "x": 1
+    },
+    "colors": [],
+    "pos": {
+      "y": 384,
+      "x": 682.66666666667
+    },
+    "anchor": {
+      "y": 198.04444444444,
+      "x": 256
+    },
+    "alpha": 1,
+    "children": [
+      {
+        "ts": 34.330800000012,
+        "r": 0,
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "class": "class KImageView",
+        "hidden": false,
+        "alpha": 1,
+        "pos": {
+          "y": 32,
+          "x": 256
+        },
+        "id": "100880",
+        "colors": [],
+        "image_name": "notifications_tit_generics_bg_0001",
+        "anchor": {
+          "y": 71.111111111111,
+          "x": 128
+        },
+        "children": [
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 38,
+              "x": 208
+            },
+            "text_align": "center",
+            "class": "class GGShaderLabel",
+            "alpha": 1,
+            "font_metrics": {
+              "baseline": 39,
+              "name": "JIMOJW",
+              "ascent": 38,
+              "height": 49,
+              "descent": -12
+            },
+            "wrapped_lines": [
+              "提示"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 104
+            },
+            "font_name": "h_noti",
+            "children": [],
+            "size": {
+              "y": 38,
+              "x": 208
+            },
+            "fit_lines": 1,
+            "vertical_align": "middle",
+            "ts": 34.330800000012,
+            "r": 0,
+            "id": "100881",
+            "text": "提示",
+            "font_adj": {
+              "middle": 2.025
+            },
+            "font_size": 24,
+            "hidden": false,
+            "colors": {
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "text": [
+                247,
+                244,
+                185
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "line_height": 1,
+            "pos": {
+              "y": 16,
+              "x": 128
+            },
+            "source_lines": [
+              "提示"
+            ],
+            "text_shadow": true
+          }
+        ],
+        "size": {
+          "y": 71.111111111111,
+          "x": 256
+        }
+      },
+      {
+        "text_offset": {
+          "y": 0,
+          "x": 0
+        },
+        "text_size": {
+          "y": 64,
+          "x": 142.22222222222
+        },
+        "text_align": "center",
+        "class": "class GGButton",
+        "click_image_name": "notifications_but_lightblue_bg_0002",
+        "hover_image_name": "notifications_but_lightblue_bg_0002",
+        "font_metrics": {
+          "baseline": 39,
+          "ascent": 38,
+          "height": 49,
+          "descent": -12
+        },
+        "wrapped_lines": [],
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "children": [
+          {
+            "text_offset": {
+              "y": 0,
+              "x": 0
+            },
+            "_font_scale": 1.40625,
+            "text_size": {
+              "y": 34,
+              "x": 102.22222222222
+            },
+            "text_align": "center",
+            "class": "class GGShaderLabel",
+            "alpha": 1,
+            "font_metrics": {
+              "baseline": 38,
+              "name": "AlibabaPuHuiTi-3-55-Regular",
+              "ascent": 37,
+              "height": 48,
+              "descent": -12
+            },
+            "wrapped_lines": [
+              "好的！"
+            ],
+            "anchor": {
+              "y": 0,
+              "x": 0
+            },
+            "font_name": "body",
+            "children": [],
+            "size": {
+              "y": 34,
+              "x": 102.22222222222
+            },
+            "fit_lines": 1,
+            "vertical_align": "middle",
+            "ts": 34.330800000012,
+            "r": 0,
+            "id": "100883",
+            "text": "好的！",
+            "font_adj": {
+              "top": 3.9375
+            },
+            "font_size": 20,
+            "hidden": false,
+            "colors": {
+              "text_shadow": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "text": [
+                255,
+                254,
+                200
+              ]
+            },
+            "text_shadow_offset": {
+              "y": 1,
+              "x": 1
+            },
+            "scale": {
+              "y": 1,
+              "x": 1
+            },
+            "line_height": 1,
+            "pos": {
+              "y": 14,
+              "x": 20
+            },
+            "source_lines": [
+              "好的！"
+            ],
+            "text_shadow": true
+          }
+        ],
+        "size": {
+          "y": 64,
+          "x": 142.22222222222
+        },
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "ts": 34.330800000012,
+        "line_height": 1,
+        "r": 0,
+        "id": "100882",
+        "text": "",
+        "font_adj": {
+          "size": 1
+        },
+        "hidden": false,
+        "alpha": 1,
+        "colors": {
+          "text": [
+            0,
+            0,
+            0
+          ]
+        },
+        "image_name": "notifications_but_lightblue_bg_0001",
+        "default_image_name": "notifications_but_lightblue_bg_0001",
+        "pos": {
+          "y": 360,
+          "x": 300
+        }
+      },
+      {
+        "ts": 34.330800000012,
+        "r": 0,
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "class": "class KImageView",
+        "hidden": false,
+        "alpha": 1,
+        "pos": {
+          "y": 0,
+          "x": 0
+        },
+        "id": "100872",
+        "colors": [],
+        "image_name": "notifications_tips_slides_notxt_0005",
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "children": [],
+        "size": {
+          "y": 396.08888888889,
+          "x": 512
+        }
+      },
+      {
+        "text_offset": {
+          "y": 0,
+          "x": 0
+        },
+        "_font_scale": 1.40625,
+        "text_size": {
+          "y": 44,
+          "x": 310
+        },
+        "text_align": "left",
+        "class": "class GGLabel",
+        "font_metrics": {
+          "baseline": 38,
+          "name": "AlibabaPuHuiTi-3-55-Regular",
+          "ascent": 37,
+          "height": 48,
+          "descent": -12
+        },
+        "wrapped_lines": [
+          "升级与英雄限制！"
+        ],
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "font_name": "body_slides",
+        "children": [],
+        "size": {
+          "y": 44,
+          "x": 310
+        },
+        "hidden": false,
+        "vertical_align": "middle",
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "r": 0,
+        "id": "100873",
+        "text": "升级与英雄限制！",
+        "font_adj": {
+          "top": 5.259375
+        },
+        "ts": 34.330800000012,
+        "font_size": 22,
+        "colors": {
+          "text": [
+            17,
+            20,
+            12,
+            255
+          ],
+          "text_shadow": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "text_shadow_offset": {
+          "y": 1,
+          "x": 1
+        },
+        "alpha": 1,
+        "line_height": 1,
+        "pos": {
+          "y": 35,
+          "x": 135
+        },
+        "source_lines": [
+          "升级与英雄限制！"
+        ],
+        "text_shadow": false
+      },
+      {
+        "text_offset": {
+          "y": 0,
+          "x": 0
+        },
+        "_font_scale": 1.40625,
+        "text_size": {
+          "y": 100,
+          "x": 194
+        },
+        "text_align": "center",
+        "class": "class GGLabel",
+        "font_metrics": {
+          "baseline": 31,
+          "name": "AlibabaPuHuiTi-3-55-Regular",
+          "ascent": 30,
+          "height": 39,
+          "descent": -10
+        },
+        "wrapped_lines": [
+          "钢铁和英雄挑",
+          "战中升级会有",
+          "所限制！"
+        ],
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "font_name": "body_slides",
+        "children": [],
+        "size": {
+          "y": 100,
+          "x": 194
+        },
+        "ts": 34.330800000012,
+        "hidden": false,
+        "r": 0,
+        "id": "100874",
+        "text": "钢铁和英雄挑战中升级会有所限制！",
+        "font_adj": {
+          "top": 4.303125
+        },
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "font_size": 18,
+        "colors": {
+          "text": [
+            17,
+            20,
+            12,
+            255
+          ],
+          "text_shadow": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "text_shadow_offset": {
+          "y": 1,
+          "x": 1
+        },
+        "alpha": 1,
+        "line_height": 1,
+        "pos": {
+          "y": 108,
+          "x": 40
+        },
+        "source_lines": [
+          "钢铁和英雄挑",
+          "战中升级会有",
+          "所限制！"
+        ],
+        "text_shadow": false
+      },
+      {
+        "text_offset": {
+          "y": 0,
+          "x": 0
+        },
+        "_font_scale": 1.40625,
+        "text_size": {
+          "y": 26,
+          "x": 314
+        },
+        "text_align": "left",
+        "class": "class GGLabel",
+        "font_metrics": {
+          "baseline": 29,
+          "name": "AlibabaPuHuiTi-3-55-Regular",
+          "ascent": 28,
+          "height": 36,
+          "descent": -9
+        },
+        "wrapped_lines": [
+          "确认关卡描述来查看："
+        ],
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "font_name": "body_slides",
+        "children": [],
+        "size": {
+          "y": 26,
+          "x": 314
+        },
+        "ts": 34.330800000012,
+        "hidden": false,
+        "r": 0,
+        "id": "100875",
+        "text": "确认关卡描述来查看：",
+        "font_adj": {
+          "top": 4.0640625
+        },
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "font_size": 17,
+        "colors": {
+          "text": [
+            17,
+            20,
+            12,
+            255
+          ],
+          "text_shadow": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "text_shadow_offset": {
+          "y": 1,
+          "x": 1
+        },
+        "alpha": 1,
+        "line_height": 1,
+        "pos": {
+          "y": 288,
+          "x": 48
+        },
+        "source_lines": [
+          "确认关卡描述来查看："
+        ],
+        "text_shadow": false
+      },
+      {
+        "text_offset": {
+          "y": 0,
+          "x": 0
+        },
+        "_font_scale": 1.40625,
+        "text_size": {
+          "y": 24,
+          "x": 286
+        },
+        "text_align": "left",
+        "class": "class GGLabel",
+        "font_metrics": {
+          "baseline": 26,
+          "name": "AlibabaPuHuiTi-3-55-Regular",
+          "ascent": 25,
+          "height": 32,
+          "descent": -8
+        },
+        "wrapped_lines": [
+          "- 允许最大升级等级"
+        ],
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "font_name": "body_slides",
+        "children": [],
+        "size": {
+          "y": 24,
+          "x": 286
+        },
+        "alpha": 1,
+        "ts": 34.330800000012,
+        "_fitted_font_size": 15,
+        "r": 0,
+        "id": "100876",
+        "text": "- 允许最大升级等级",
+        "font_adj": {
+          "top": 3.5859375
+        },
+        "font_size": 16,
+        "hidden": false,
+        "colors": {
+          "text": [
+            17,
+            20,
+            12,
+            255
+          ],
+          "text_shadow": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "text_shadow_offset": {
+          "y": 1,
+          "x": 1
+        },
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "line_height": 1,
+        "pos": {
+          "y": 310,
+          "x": 50
+        },
+        "source_lines": [
+          "- 允许最大升级等级"
+        ],
+        "text_shadow": false
+      },
+      {
+        "text_offset": {
+          "y": 0,
+          "x": 0
+        },
+        "_font_scale": 1.40625,
+        "text_size": {
+          "y": 24,
+          "x": 286
+        },
+        "text_align": "left",
+        "class": "class GGLabel",
+        "font_metrics": {
+          "baseline": 26,
+          "name": "AlibabaPuHuiTi-3-55-Regular",
+          "ascent": 25,
+          "height": 32,
+          "descent": -8
+        },
+        "wrapped_lines": [
+          "- 若允许英雄"
+        ],
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "font_name": "body_slides",
+        "children": [],
+        "size": {
+          "y": 24,
+          "x": 286
+        },
+        "alpha": 1,
+        "ts": 34.330800000012,
+        "_fitted_font_size": 15,
+        "r": 0,
+        "id": "100877",
+        "text": "- 若允许英雄",
+        "font_adj": {
+          "top": 3.5859375
+        },
+        "font_size": 16,
+        "hidden": false,
+        "colors": {
+          "text": [
+            17,
+            20,
+            12,
+            255
+          ],
+          "text_shadow": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "text_shadow_offset": {
+          "y": 1,
+          "x": 1
+        },
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "line_height": 1,
+        "pos": {
+          "y": 328,
+          "x": 50
+        },
+        "source_lines": [
+          "- 若允许英雄"
+        ],
+        "text_shadow": false
+      },
+      {
+        "text_offset": {
+          "y": 0,
+          "x": 0
+        },
+        "_font_scale": 1.40625,
+        "text_size": {
+          "y": 20,
+          "x": 68
+        },
+        "text_align": "center",
+        "class": "class GGLabel",
+        "font_metrics": {
+          "baseline": 17,
+          "name": "AlibabaPuHuiTi-3-55-Regular",
+          "ascent": 16,
+          "height": 21,
+          "descent": -6
+        },
+        "wrapped_lines": [
+          "允许最大",
+          "等级"
+        ],
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "font_name": "body_slides",
+        "children": [],
+        "size": {
+          "y": 20,
+          "x": 68
+        },
+        "ts": 34.330800000012,
+        "hidden": false,
+        "r": 0,
+        "id": "100878",
+        "text": "允许最大等级",
+        "font_adj": {
+          "top": 2.390625
+        },
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "font_size": 10,
+        "colors": {
+          "text": [
+            216,
+            55,
+            18
+          ],
+          "text_shadow": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "text_shadow_offset": {
+          "y": 1,
+          "x": 1
+        },
+        "alpha": 1,
+        "line_height": 0.8,
+        "pos": {
+          "y": 309,
+          "x": 396
+        },
+        "source_lines": [
+          "允许最大",
+          "等级"
+        ],
+        "text_shadow": false
+      },
+      {
+        "text_offset": {
+          "y": 0,
+          "x": 0
+        },
+        "_font_scale": 1.40625,
+        "text_size": {
+          "y": 20,
+          "x": 50
+        },
+        "text_align": "center",
+        "class": "class GGLabel",
+        "font_metrics": {
+          "baseline": 17,
+          "name": "AlibabaPuHuiTi-3-55-Regular",
+          "ascent": 16,
+          "height": 21,
+          "descent": -6
+        },
+        "wrapped_lines": [
+          "无英雄"
+        ],
+        "anchor": {
+          "y": 0,
+          "x": 0
+        },
+        "font_name": "body_slides",
+        "children": [],
+        "size": {
+          "y": 20,
+          "x": 50
+        },
+        "ts": 34.330800000012,
+        "hidden": false,
+        "r": 0,
+        "id": "100879",
+        "text": "无英雄",
+        "font_adj": {
+          "top": 2.390625
+        },
+        "scale": {
+          "y": 1,
+          "x": 1
+        },
+        "font_size": 10,
+        "colors": {
+          "text": [
+            216,
+            55,
+            18
+          ],
+          "text_shadow": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "text_shadow_offset": {
+          "y": 1,
+          "x": 1
+        },
+        "alpha": 1,
+        "line_height": 0.8,
+        "pos": {
+          "y": 334,
+          "x": 405
+        },
+        "source_lines": [
+          "无英雄"
+        ],
+        "text_shadow": false
+      }
+    ],
+    "size": {
+      "y": 396.08888888889,
+      "x": 512
+    }
+  },
+  "frames": {
+    "alert_creep_notxt_0101": {
+      "rect": [
+        2,
+        2,
+        112,
+        92
+      ],
+      "size": [
+        112,
+        92
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "alert_creep_notxt_0102": {
+      "rect": [
+        116,
+        2,
+        112,
+        92
+      ],
+      "size": [
+        112,
+        92
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "encyclopedia_creeps_0101": {
+      "rect": [
+        230,
+        2,
+        260,
+        247
+      ],
+      "size": [
+        260,
+        247
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "encyclopedia_creeps_0102": {
+      "rect": [
+        492,
+        2,
+        260,
+        247
+      ],
+      "size": [
+        260,
+        247
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_but_dark_bg_0001": {
+      "rect": [
+        754,
+        2,
+        200,
+        88
+      ],
+      "size": [
+        200,
+        88
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_but_dark_bg_0002": {
+      "rect": [
+        956,
+        2,
+        200,
+        88
+      ],
+      "size": [
+        200,
+        88
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_but_lightblue_bg_0001": {
+      "rect": [
+        1158,
+        2,
+        200,
+        90
+      ],
+      "size": [
+        200,
+        90
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_but_lightblue_bg_0002": {
+      "rect": [
+        1360,
+        2,
+        200,
+        90
+      ],
+      "size": [
+        200,
+        90
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_newenemy": {
+      "rect": [
+        2,
+        251,
+        900,
+        420
+      ],
+      "size": [
+        900,
+        420
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_polaroid_overlay": {
+      "rect": [
+        904,
+        251,
+        330,
+        320
+      ],
+      "size": [
+        330,
+        320
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_tips_slides_notxt_0005": {
+      "rect": [
+        1236,
+        251,
+        720,
+        557
+      ],
+      "size": [
+        720,
+        557
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_tit_generics_bg_0001": {
+      "rect": [
+        2,
+        810,
+        360,
+        100
+      ],
+      "size": [
+        360,
+        100
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "notifications_tit_newenemy_bg": {
+      "rect": [
+        364,
+        810,
+        360,
+        100
+      ],
+      "size": [
+        360,
+        100
+      ],
+      "trim": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sounds": {
+    "notificationOpen": "/assets/kr1/audio/Sound_NotificationOpen.ogg",
+    "notificationClose": "/assets/kr1/audio/Sound_NotificationClose.ogg",
+    "notificationBadge": "/assets/kr1/audio/Sound_NotificationSecondLevel.ogg"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="description" content="王国保卫战一代的 TypeScript + PixiJS 重写：独立战斗模拟、13 位英雄、现代浏览器与 PWA 离线支持。" />
+    <meta name="theme-color" content="#192721" />
+    <style>
+      #loading{position:fixed;inset:0;z-index:100;background:#080a06;display:grid;place-items:center;cursor:none}
+      #loading[hidden]{display:none}.loading-scene{position:relative;width:min(100vw,177.77777778vh);height:min(100vh,56.25vw);background:url('/assets/kr1/loading/background.webp') center/100% 100% no-repeat}
+      .loading-panel{position:absolute;width:62.5%;aspect-ratio:1200/202;bottom:0;left:18.75%;background:url('/assets/kr1/loading/loading_barBg_0001.webp') center bottom/100% 100% no-repeat}
+      .loading-label{position:absolute;top:9%;left:32.5%;right:31.83%;height:35.6%;display:grid;place-items:center;text-align:center;color:#f8e6b7;font:clamp(12px,.9375vw,18px) sans-serif}
+      .loading-track{position:absolute;left:27%;width:47.167%;top:72.277%;height:14.85%;overflow:hidden}.loading-fill{width:100%;height:100%;background:url('/assets/kr1/loading/loading_bar.webp') center/100% 100%;transform:scaleX(0);transform-origin:left}
+      .loading-outline{position:absolute;inset:0;background:url('/assets/kr1/loading/loading_barBg_0002.webp') center bottom/100% 100% no-repeat;pointer-events:none}
+      .loading-details{position:absolute;bottom:21%;left:50%;transform:translateX(-50%);box-sizing:border-box;width:min(680px,90%);padding:16px 20px;background:rgba(12,20,15,.92);border:1px solid #8c794c;border-radius:8px;color:#f4e5bb;font:clamp(11px,1.05vw,14px)/1.5 system-ui,sans-serif;box-shadow:0 6px 24px #0008}
+      .loading-stage{display:block;font-size:1.2em;margin-bottom:5px}.loading-summary{color:#d6cbaa;font-variant-numeric:tabular-nums}.loading-resources{list-style:none;margin:12px 0 8px;padding:0;max-height:23vh;overflow:auto;scrollbar-color:#8c794c #19271e;font-variant-numeric:tabular-nums}.loading-resources li{display:flex;gap:12px;justify-content:space-between;padding:4px 0;border-top:1px solid #a9986726}.loading-resource-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.loading-resources li>span:last-child{white-space:nowrap;color:#c5bea8}.loading-resources li[data-state=reading]{color:#f7d36e}.loading-note{margin:0;color:#aaa88d;font-size:.85em}.indeterminate .loading-fill{width:30%;animation:loading-wait 1.4s ease-in-out infinite}
+      #loading:not([data-debug]) .loading-details{width:min(420px,86%);padding:14px 20px;text-align:center}
+      #loading:not([data-debug]) .loading-resources,#loading:not([data-debug]) .loading-note{display:none}
+      @keyframes loading-wait{0%{transform:translateX(-100%)}100%{transform:translateX(340%)}}
+    </style>
+    <title>王国保卫战 · 初代</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="loading"><div class="loading-scene"><section class="loading-details"><strong class="loading-stage">正在启动王国保卫战…</strong><div class="loading-summary" role="status" aria-live="polite">正在准备加载…</div><ul class="loading-resources" aria-label="资源加载明细"></ul><p class="loading-note">显示当前阶段的文件内容大小；缓存读取计入进度，不代表重新下载。</p></section><div class="loading-panel"><span class="loading-label">正在启动…</span><div class="loading-track indeterminate" role="progressbar" aria-label="当前阶段资源读取进度" aria-valuemin="0" aria-valuemax="100"><div class="loading-fill"></div></div><div class="loading-outline"></div></div></div></div>
+    <script type="module" src="/src/bootstrap.ts"></script>
+  </body>
+</html>

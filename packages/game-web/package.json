@@ -1,0 +1,54 @@
+{
+  "name": "@kingdom-rush/game-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./menu-motion": "./src/menu-motion.ts",
+    "./pathfinding": "./src/pathfinding.ts",
+    "./types": "./src/types.ts",
+    "./progress": "./src/progress.ts",
+    "./loading": "./src/loading.ts",
+    "./camera": "./src/camera.ts",
+    "./display-layout": "./src/display-layout.ts",
+    "./textures": "./src/textures.ts",
+    "./title.css": "./src/title.css",
+    "./ui-tree": "./src/ui-tree.ts",
+    "./settings-typography": "./src/settings-typography.ts",
+    "./map-popup": "./src/map-popup.ts",
+    "./map-level-flag": "./src/map-level-flag.ts",
+    "./map-widgets": "./src/map-widgets.ts",
+    "./cursor": "./src/cursor.ts",
+    "./frame-rate": "./src/frame-rate.ts",
+    "./performance-hud": "./src/performance-hud.ts",
+    "./pwa": "./src/pwa.ts",
+    "./display": "./src/display.ts",
+    "./display-settings": "./src/display-settings.ts",
+    "./volume-sliders": "./src/volume-sliders.ts",
+    "./map-stars": "./src/map-stars.ts",
+    "./title-screen": "./src/title-screen.ts",
+    "./options-menu": "./src/options-menu.ts",
+    "./hero-room": "./src/hero-room.ts",
+    "./notifications": "./src/notifications.ts",
+    "./victory": "./src/victory.ts",
+    "./battle-menu-motion": "./src/battle-menu-motion.ts",
+    "./progression-menus": "./src/progression-menus.ts",
+    "./encyclopedia": "./src/encyclopedia.ts",
+    "./route-preview": "./src/route-preview.ts",
+    "./wave-flag": "./src/wave-flag.ts",
+    "./wave-flag-position": "./src/wave-flag-position.ts",
+    "./comic": "./src/comic.ts"
+  },
+  "peerDependencies": {
+    "pixi.js": "^8.14.0"
+  },
+  "devDependencies": {
+    "pixi.js": "^8.14.0"
+  },
+  "dependencies": {
+    "@kingdom-rush/game-types": "workspace:*",
+    "@kingdom-rush/engine": "workspace:*",
+    "@kingdom-rush/asset-runtime": "workspace:*",
+    "@kingdom-rush/game-storage": "workspace:*"
+  }
+}

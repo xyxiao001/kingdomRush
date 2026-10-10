@@ -1,0 +1,6 @@
+packages:
+  - 'apps/kr1'
+  - 'packages/*'
+
+allowBuilds:
+  esbuild: true

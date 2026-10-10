@@ -1,0 +1,19 @@
+{
+  "name": "@kingdom-rush/asset-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./progress": "./src/progress.ts",
+    "./textures": "./src/textures.ts"
+  },
+  "dependencies": {
+    "@kingdom-rush/game-types": "workspace:*"
+  },
+  "peerDependencies": {
+    "pixi.js": "^8.14.0"
+  },
+  "devDependencies": {
+    "pixi.js": "^8.14.0"
+  }
+}

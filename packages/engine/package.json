@@ -1,0 +1,18 @@
+{
+  "name": "@kingdom-rush/engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./pathfinding": "./src/pathfinding.ts",
+    "./geometry": "./src/geometry.ts",
+    "./damage": "./src/damage.ts",
+    "./progression": "./src/progression.ts",
+    "./waves": "./src/waves.ts",
+    "./hero-progression": "./src/hero-progression.ts",
+    "./progression-state": "./src/progression-state.ts"
+  },
+  "dependencies": {
+    "@kingdom-rush/game-types": "workspace:*"
+  }
+}

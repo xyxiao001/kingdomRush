@@ -1,0 +1,2512 @@
+{
+  "sounds": {
+    "ArcherTaunt": {
+      "gain": 0.6,
+      "source_group": "TAUNTS",
+      "files": [
+        "Archer_Ready.ogg",
+        "Archer_Taunt1.ogg",
+        "Archer_Taunt2.ogg"
+      ],
+      "mode": "sequence",
+      "ignore": 1.5
+    },
+    "EngineerTaunt": {
+      "gain": 0.6,
+      "source_group": "TAUNTS",
+      "files": [
+        "Artillery_Ready.ogg",
+        "Artillery_Taunt1.ogg",
+        "Artillery_Taunt2.ogg"
+      ],
+      "mode": "sequence",
+      "ignore": 1.5
+    },
+    "GUITowerSell": {
+      "gain": 1,
+      "source_group": "GUI",
+      "files": [
+        "Sound_TowerSell.ogg"
+      ]
+    },
+    "MageTaunt": {
+      "gain": 0.6,
+      "source_group": "TAUNTS",
+      "files": [
+        "Mage_Ready.ogg",
+        "Mage_Taunt1.ogg",
+        "Mage_Taunt2.ogg"
+      ],
+      "mode": "sequence",
+      "ignore": 1.5
+    },
+    "DeathOrc": {
+      "source_group": "DEATH",
+      "files": [
+        "Sound_EnemyOrcDead.ogg"
+      ]
+    },
+    "DeathGoblin": {
+      "source_group": "DEATH",
+      "files": [
+        "Sound_EnemyGoblinDead.ogg"
+      ]
+    },
+    "MeleeSword": {
+      "gain": 0.2,
+      "source_group": "SWORDS",
+      "files": [
+        "Sound_SoldiersFighting-01.ogg",
+        "Sound_SoldiersFighting-02.ogg",
+        "Sound_SoldiersFighting-03.ogg",
+        "Sound_SoldiersFighting-04.ogg",
+        "Sound_SoldiersFighting-05.ogg"
+      ],
+      "mode": "sequence",
+      "ignore": 0.45
+    },
+    "BarrackTaunt": {
+      "gain": 0.6,
+      "source_group": "TAUNTS",
+      "files": [
+        "Barrack_Ready.ogg",
+        "Barrack_Taunt1.ogg",
+        "Barrack_Taunt2.ogg",
+        "Barrack_Move.ogg"
+      ],
+      "mode": "sequence",
+      "ignore": 1.5
+    },
+    "ArrowSound": {
+      "gain": [
+        0.65,
+        0.8
+      ],
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_ArrowRelease2.ogg",
+        "Sound_ArrowRelease3.ogg"
+      ]
+    },
+    "BombExplosionSound": {
+      "gain": 0.8,
+      "source_group": "EXPLOSIONS",
+      "files": [
+        "Sound_Bomb1.ogg"
+      ]
+    },
+    "BombShootSound": {
+      "gain": 0.75,
+      "source_group": "EXPLOSIONS",
+      "files": [
+        "Sound_EngineerShot.ogg"
+      ]
+    },
+    "BoltSound": {
+      "gain": 0.68,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_MageShot.ogg"
+      ]
+    },
+    "WolfAttack": {
+      "gain": 0.6,
+      "ignore": 1.5,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_WolfAttack.ogg",
+        "Sound_WolfAttack2.ogg"
+      ]
+    },
+    "DeathPuff": {
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "DEATH",
+      "files": [
+        "Sound_EnemyPuffDead.ogg"
+      ]
+    },
+    "GUITowerUpgrade": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "GUI",
+      "files": [
+        "Sound_TowerUpgrade.ogg"
+      ]
+    },
+    "DeathBig": {
+      "source_group": "DEATH",
+      "loop": false,
+      "files": [
+        "Sound_EnemyBigDead.ogg"
+      ],
+      "gain": [
+        0.6,
+        0.9
+      ]
+    },
+    "DeathHuman": {
+      "loop": false,
+      "mode": "random",
+      "source_group": "DEATH",
+      "files": [
+        "Sound_HumanDead1.ogg",
+        "Sound_HumanDead2.ogg",
+        "Sound_HumanDead3.ogg",
+        "Sound_HumanDead4.ogg"
+      ]
+    },
+    "DeathEplosion": {
+      "gain": 0.4,
+      "loop": false,
+      "source_group": "DEATH",
+      "files": [
+        "Sound_EnemyExplode1.ogg"
+      ]
+    },
+    "EnemyHealing": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "Sound_EnemyHealing.ogg"
+      ]
+    },
+    "SpiderAttack": {
+      "gain": 0.6,
+      "ignore": 1.5,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_SpiderAttack1.ogg",
+        "Sound_SpiderAttack2.ogg"
+      ]
+    },
+    "ArcherRangerTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "TAUNTS",
+      "files": [
+        "Ranger_Ready.ogg",
+        "Ranger_Taunt1.ogg",
+        "Ranger_Taunt2.ogg"
+      ]
+    },
+    "ArcherRangerPoisonTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Ranger_Taunt1.ogg"
+      ]
+    },
+    "ArcherRangerThornTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Ranger_Taunt2.ogg"
+      ]
+    },
+    "ElfTaunt": {
+      "gain": 0.8,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "TAUNTS",
+      "files": [
+        "Elf_Taun1.ogg",
+        "Elf_Taun2.ogg"
+      ]
+    },
+    "ThornSound": {
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "SPECIALS",
+      "files": [
+        "Sound_Thorn.ogg"
+      ]
+    },
+    "MageArcaneDesintegrateTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Arcane_Taunt2.ogg"
+      ]
+    },
+    "MageArcaneTeleporthTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Arcane_Taunt1.ogg"
+      ]
+    },
+    "BarrackPaladinHealingTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Paladin_Ready.ogg"
+      ]
+    },
+    "BarrackPaladinShieldTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Paladin_Taunt2.ogg"
+      ]
+    },
+    "BarrackPaladinHolyStrikeTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Paladin_Taunt1.ogg"
+      ]
+    },
+    "MageArcaneTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Arcane_Ready.ogg"
+      ]
+    },
+    "BarrackPaladinTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "TAUNTS",
+      "files": [
+        "Paladin_Ready.ogg",
+        "Paladin_Taunt1.ogg",
+        "Paladin_Taunt2.ogg",
+        "Paladin_Move.ogg"
+      ]
+    },
+    "ArcaneRaySound": {
+      "gain": 0.68,
+      "loop": false,
+      "source_group": "SPECIALS",
+      "files": [
+        "Sound_RayArcane.ogg"
+      ]
+    },
+    "DesintegrateSound": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SPECIALS",
+      "files": [
+        "Sound_ArcaneDesintegrate.ogg"
+      ]
+    },
+    "TeleporthSound": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SPECIALS",
+      "files": [
+        "Sound_Teleport.ogg"
+      ]
+    },
+    "HealingSound": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SPECIALS",
+      "files": [
+        "Sound_PaladinHeal.ogg"
+      ]
+    },
+    "DeathJuggernaut": {
+      "gain": 0.9,
+      "loop": false,
+      "source_group": "DEATH",
+      "files": [
+        "Sound_JuggernautDeath.ogg"
+      ]
+    },
+    "RocketLaunchSound": {
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_RocketLaunt.ogg"
+      ]
+    },
+    "ArcherMusketeerTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "TAUNTS",
+      "files": [
+        "Muskateer_Ready.ogg",
+        "Muskateer_Event1.ogg",
+        "Muskateer_Event2.ogg"
+      ]
+    },
+    "ArcherMusketeerSniperTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Muskateer_Snipe.ogg"
+      ]
+    },
+    "ArcherMusketeerShrapnelTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Muskateer_Event1.ogg"
+      ]
+    },
+    "ShotgunSound": {
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_Shootgun.ogg"
+      ]
+    },
+    "SniperSound": {
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_Sniper.ogg"
+      ]
+    },
+    "ShrapnelSound": {
+      "gain": 0.12,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_Shrapnel.ogg"
+      ]
+    },
+    "DeathTroll": {
+      "loop": false,
+      "source_group": "DEATH",
+      "files": [
+        "Sound_EnemyTrollDead.ogg"
+      ]
+    },
+    "EngineerBfgTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "BFG_Ready.ogg"
+      ]
+    },
+    "EngineerBfgMissileTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "BFG_Taunt2.ogg"
+      ]
+    },
+    "EngineerBfgClusterTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "BFG_Taunt1.ogg"
+      ]
+    },
+    "BarrackBarbarianTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "TAUNTS",
+      "files": [
+        "Barbarian_Ready.ogg",
+        "Barbarian_Taunt1.ogg",
+        "Barbarian_Taunt2.ogg",
+        "Barbarian_Move.ogg"
+      ]
+    },
+    "BarrackBarbarianDoubleAxesTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Barbarian_Move.ogg"
+      ]
+    },
+    "BarrackBarbarianTwisterTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Barbarian_Taunt1.ogg"
+      ]
+    },
+    "BarrackBarbarianThrowingAxesTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Barbarian_Ready.ogg"
+      ]
+    },
+    "AxeSound": {
+      "source_group": "BULLETS",
+      "loop": false,
+      "files": [
+        "Sound_BattleAxe.ogg"
+      ],
+      "gain": [
+        0.3,
+        0.5
+      ]
+    },
+    "NetSound": {
+      "source_group": "BULLETS",
+      "loop": false,
+      "files": [
+        "Sound_ArrowRelease3.ogg"
+      ],
+      "gain": [
+        0.65,
+        0.8
+      ]
+    },
+    "EnemyChieftain": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "Sound_Chieftain.ogg"
+      ]
+    },
+    "AreaAttack": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_CommonAreaHit.ogg"
+      ]
+    },
+    "SasquashReady": {
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Sound_TowerSoldierSasquashReady.ogg"
+      ]
+    },
+    "SasquashRally": {
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Sound_TowerSoldierSasquashRally.ogg"
+      ]
+    },
+    "MageSorcererTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "TAUNTS",
+      "files": [
+        "Sorcerer_Ready.ogg",
+        "Sorcerer_Taunt1.ogg",
+        "Sorcerer_Taunt2.ogg"
+      ]
+    },
+    "MageSorcererAshesToAshesTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Sorcerer_Taunt2.ogg"
+      ]
+    },
+    "BoltSorcererSound": {
+      "gain": 0.68,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_Sorcerer.ogg"
+      ]
+    },
+    "PolymorphSound": {
+      "gain": 0.9,
+      "loop": false,
+      "source_group": "SPECIALS",
+      "files": [
+        "Sound_Polimorph.ogg"
+      ]
+    },
+    "RockElementalDeath": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Sound_RockElementalDeath.ogg"
+      ]
+    },
+    "RockElementalRally": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Sound_RockElementalRally.ogg"
+      ]
+    },
+    "EnemyRocketeer": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "Sound_EnemyRocketeer.ogg"
+      ]
+    },
+    "Sheep": {
+      "gain": 0.6,
+      "ignore": 1.5,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Sound_Sheep.ogg"
+      ]
+    },
+    "JtAttack": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyJtAttack.ogg"
+      ]
+    },
+    "JtDeath": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyJtDeath.ogg"
+      ]
+    },
+    "JtEat": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyJtEat.ogg"
+      ]
+    },
+    "JtExplode": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyJtExplode.ogg"
+      ]
+    },
+    "JtHitIce": {
+      "gain": 1,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "SFX",
+      "files": [
+        "Sound_HitIce1.ogg",
+        "Sound_HitIce2.ogg",
+        "Sound_HitIce3.ogg"
+      ]
+    },
+    "JtRest": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyJtRest.ogg"
+      ]
+    },
+    "EngineerTeslaTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Tesla_Ready.ogg"
+      ]
+    },
+    "EngineerTeslaChargedBoltTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "mode": "sequence",
+      "source_group": "TAUNTS",
+      "files": [
+        "Tesla_Taunt2a.ogg",
+        "Tesla_Taunt2b.ogg",
+        "Tesla_Taunt2c.ogg"
+      ]
+    },
+    "EngineerTeslaOverchargeTaunt": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "TAUNTS",
+      "files": [
+        "Tesla_Taunt1.ogg"
+      ]
+    },
+    "TeslaAttack": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_Tesla_attack_1.ogg",
+        "Sound_Tesla_attack_2.ogg"
+      ]
+    },
+    "DeathSkeleton": {
+      "loop": false,
+      "source_group": "DEATH",
+      "files": [
+        "Sound_EnemySkeletonBreak2.ogg"
+      ],
+      "gain": [
+        0.6,
+        0.9
+      ]
+    },
+    "DeathEplosionShortA": {
+      "gain": 0.2,
+      "loop": false,
+      "source_group": "DEATH",
+      "files": [
+        "Sound_EnemyExplode1ShortA.ogg"
+      ]
+    },
+    "juggernaut_punch": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr4_sfx_juggernaut_punch_var1_v1.ogg"
+      ]
+    },
+    "MusicBossFight1": {
+      "source_group": "MUSIC",
+      "gain": 0.7,
+      "loop": true,
+      "stream": true,
+      "files": [
+        "MusicBossFight.ogg"
+      ]
+    },
+    "VeznanAttack": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyVeznan_attack.ogg"
+      ]
+    },
+    "VeznanDeath": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyVeznan_death.ogg"
+      ]
+    },
+    "VeznanDemonFire": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyVeznan_demonFire.ogg"
+      ]
+    },
+    "VeznanHoldCast": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_SpellTowerHold_Cast.ogg"
+      ]
+    },
+    "VeznanHoldDissipate": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_SpellTowerHold_Dissipate.ogg"
+      ]
+    },
+    "VeznanHoldHit": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_SpellTowerHold_Hit.ogg"
+      ]
+    },
+    "VeznanHoldTrap": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_SpellTowerHold_Trap.ogg"
+      ]
+    },
+    "VeznanPortalIn": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_DemonPortal_Telein.ogg"
+      ]
+    },
+    "VeznanPortalSummon": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_DemonPortal_Summon.ogg"
+      ]
+    },
+    "VeznanToDemon": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "BULLETS",
+      "files": [
+        "Sound_EnemyVeznan_toDemon.ogg"
+      ]
+    },
+    "swamp_thing_bomb_shot": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SPECIALS",
+      "files": [
+        "swamp-thing-shot.ogg"
+      ]
+    },
+    "swamp_thing_bomb_explosion": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SPECIALS",
+      "files": [
+        "Hero_Karkinos_Cannon_explosion.ogg"
+      ]
+    },
+    "EnemyInfernoBossDeath": {
+      "gain": 0.9,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "inferno_boss_death.ogg"
+      ]
+    },
+    "EnemyInfernoStomp": {
+      "gain": 0.9,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "inferno_boss_stomp.ogg"
+      ]
+    },
+    "EnemyInfernoHorns": {
+      "gain": 0.9,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "inferno_boss_horns.ogg"
+      ]
+    },
+    "EnemyMushroomGas": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "KR_sfx_mushroomboss_gas_op1.ogg"
+      ]
+    },
+    "EnemyMushroomBorn": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "KR_sfx_mushroomcreep_nacimiento.ogg"
+      ]
+    },
+    "EnemyMushroomDeath": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "KR_sfx_mushroomcreep_muerte_edit_vanzen.ogg"
+      ]
+    },
+    "EnemyMushroomBossDeath": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "KR_sfx_mushroomboss_muerte.ogg"
+      ]
+    },
+    "EnemyBlackburnGiantRat": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_giantrats1.ogg",
+        "kr_sfx_cb_giantrats2.ogg"
+      ]
+    },
+    "EnemyBlackburnWitch": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_witch_fast.ogg",
+        "kr_sfx_cb_witch_slow.ogg"
+      ]
+    },
+    "EnemyBlackburnWitchDeath": {
+      "gain": 0.2,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_witchdeath.ogg"
+      ]
+    },
+    "HWAbominationExplosion": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "halloween_abominationexplosion.ogg"
+      ]
+    },
+    "HWAlphaWolf": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "halloween_werewolf_alfawolf.ogg"
+      ]
+    },
+    "HWWerewolfTransformation": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "halloween_werewolf_transformation.ogg"
+      ]
+    },
+    "HWZombieAmbient": {
+      "gain": 0.6,
+      "ignore": 3,
+      "loop": false,
+      "mode": "random",
+      "source_group": "SFX",
+      "files": [
+        "canibal_zombie_one.ogg",
+        "canibal_zombie_two.ogg",
+        "canibal_zombie_three.ogg"
+      ]
+    },
+    "CBSpectralKnight": {
+      "gain": 0.6,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_spectralknight[horn+organ].ogg"
+      ]
+    },
+    "ExtraBlackburnCrow": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_crow.ogg"
+      ]
+    },
+    "ExtraBlackburnNessie": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_nessie.ogg"
+      ]
+    },
+    "BlackburnGhosts": {
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_ambience_cb_ghosts_1.ogg"
+      ]
+    },
+    "BlackburnAmbienceBlackburn": {
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_ambience_cb_aquelarre.ogg",
+        "halloween_werewolf_minormoans.ogg"
+      ]
+    },
+    "kr4_tower_wickedsisters_attack_v1": {
+      "gain": 1,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr4_tower_wickedsisters_attack_v1.ogg"
+      ]
+    },
+    "EnemyBlackburnBossDeath": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_lordblackburn_death.ogg"
+      ]
+    },
+    "EnemyBlackburnBossSwing": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_lordblackburn_swing.ogg"
+      ]
+    },
+    "EnemyBlackburnBossSpecialStomp": {
+      "gain": 0.5,
+      "loop": false,
+      "source_group": "SFX",
+      "files": [
+        "kr_sfx_cb_lordblackburn_specialstomp.ogg"
+      ]
+    },
+    "EndlessOrcsTotemHealing": {
+      "files": [
+        "kr_sfx_endless_healingtotem_v3.ogg"
+      ],
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "SPECIALS"
+    },
+    "EndlessOrcsTotemDamage": {
+      "files": [
+        "kr_sfx_endless_flametotem_v3.ogg"
+      ],
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "SPECIALS"
+    },
+    "EndlessOrcsTotemSpeed": {
+      "files": [
+        "kr_sfx_endless_swiftnesstotem_v3.ogg"
+      ],
+      "gain": 0.8,
+      "loop": false,
+      "source_group": "SPECIALS"
+    },
+    "AssassinGold": {
+      "loop": false,
+      "gain": 0.6,
+      "source_group": "SPECIALS",
+      "files": [
+        "assassin_gold.ogg"
+      ]
+    }
+  },
+  "group_gains": {
+    "EXPLOSIONS": 1,
+    "SFX": 1,
+    "REFCOUNTED": 1,
+    "GUI": 1,
+    "MUSIC": 0.5,
+    "BULLETS": 1,
+    "SPECIALS": 1,
+    "TAUNTS": 1,
+    "SWORDS": 1,
+    "DEATH": 1
+  },
+  "source_groups": {
+    "EXPLOSIONS": {
+      "max_sources": 3
+    },
+    "SFX": {
+      "max_sources": 5
+    },
+    "DEFAULT": {
+      "max_sources": 1
+    },
+    "REFCOUNTED": {
+      "max_sources": 1000000
+    },
+    "GUI": {
+      "max_sources": 4
+    },
+    "MUSIC": {
+      "max_sources": 1
+    },
+    "BULLETS": {
+      "max_sources": 9
+    },
+    "SPECIALS": {
+      "max_sources": 5
+    },
+    "TAUNTS": {
+      "max_sources": 2
+    },
+    "SWORDS": {
+      "max_sources": 1
+    },
+    "DEATH": {
+      "max_sources": 3
+    }
+  },
+  "files": {
+    "Archer_Ready.ogg": "/assets/kr1/audio/Archer_Ready.ogg",
+    "Archer_Taunt1.ogg": "/assets/kr1/audio/Archer_Taunt1.ogg",
+    "Archer_Taunt2.ogg": "/assets/kr1/audio/Archer_Taunt2.ogg",
+    "Artillery_Ready.ogg": "/assets/kr1/audio/Artillery_Ready.ogg",
+    "Artillery_Taunt1.ogg": "/assets/kr1/audio/Artillery_Taunt1.ogg",
+    "Artillery_Taunt2.ogg": "/assets/kr1/audio/Artillery_Taunt2.ogg",
+    "Sound_TowerSell.ogg": "/assets/kr1/audio/Sound_TowerSell.ogg",
+    "Mage_Ready.ogg": "/assets/kr1/audio/Mage_Ready.ogg",
+    "Mage_Taunt1.ogg": "/assets/kr1/audio/Mage_Taunt1.ogg",
+    "Mage_Taunt2.ogg": "/assets/kr1/audio/Mage_Taunt2.ogg",
+    "Sound_EnemyOrcDead.ogg": "/assets/kr1/audio/Sound_EnemyOrcDead.ogg",
+    "Sound_EnemyGoblinDead.ogg": "/assets/kr1/audio/Sound_EnemyGoblinDead.ogg",
+    "Sound_SoldiersFighting-01.ogg": "/assets/kr1/audio/Sound_SoldiersFighting-01.ogg",
+    "Sound_SoldiersFighting-02.ogg": "/assets/kr1/audio/Sound_SoldiersFighting-02.ogg",
+    "Sound_SoldiersFighting-03.ogg": "/assets/kr1/audio/Sound_SoldiersFighting-03.ogg",
+    "Sound_SoldiersFighting-04.ogg": "/assets/kr1/audio/Sound_SoldiersFighting-04.ogg",
+    "Sound_SoldiersFighting-05.ogg": "/assets/kr1/audio/Sound_SoldiersFighting-05.ogg",
+    "Barrack_Ready.ogg": "/assets/kr1/audio/Barrack_Ready.ogg",
+    "Barrack_Taunt1.ogg": "/assets/kr1/audio/Barrack_Taunt1.ogg",
+    "Barrack_Taunt2.ogg": "/assets/kr1/audio/Barrack_Taunt2.ogg",
+    "Barrack_Move.ogg": "/assets/kr1/audio/Barrack_Move.ogg",
+    "Sound_ArrowRelease2.ogg": "/assets/kr1/audio/Sound_ArrowRelease2.ogg",
+    "Sound_ArrowRelease3.ogg": "/assets/kr1/audio/Sound_ArrowRelease3.ogg",
+    "Sound_Bomb1.ogg": "/assets/kr1/audio/Sound_Bomb1.ogg",
+    "Sound_EngineerShot.ogg": "/assets/kr1/audio/Sound_EngineerShot.ogg",
+    "Sound_MageShot.ogg": "/assets/kr1/audio/Sound_MageShot.ogg",
+    "Sound_WolfAttack.ogg": "/assets/kr1/audio/Sound_WolfAttack.ogg",
+    "Sound_WolfAttack2.ogg": "/assets/kr1/audio/Sound_WolfAttack2.ogg",
+    "Sound_EnemyPuffDead.ogg": "/assets/kr1/audio/Sound_EnemyPuffDead.ogg",
+    "Sound_TowerUpgrade.ogg": "/assets/kr1/audio/Sound_TowerUpgrade.ogg",
+    "Sound_EnemyBigDead.ogg": "/assets/kr1/audio/Sound_EnemyBigDead.ogg",
+    "Sound_HumanDead1.ogg": "/assets/kr1/audio/Sound_HumanDead1.ogg",
+    "Sound_HumanDead2.ogg": "/assets/kr1/audio/Sound_HumanDead2.ogg",
+    "Sound_HumanDead3.ogg": "/assets/kr1/audio/Sound_HumanDead3.ogg",
+    "Sound_HumanDead4.ogg": "/assets/kr1/audio/Sound_HumanDead4.ogg",
+    "Sound_EnemyExplode1.ogg": "/assets/kr1/audio/Sound_EnemyExplode1.ogg",
+    "Sound_EnemyHealing.ogg": "/assets/kr1/audio/Sound_EnemyHealing.ogg",
+    "Sound_SpiderAttack1.ogg": "/assets/kr1/audio/Sound_SpiderAttack1.ogg",
+    "Sound_SpiderAttack2.ogg": "/assets/kr1/audio/Sound_SpiderAttack2.ogg",
+    "Ranger_Ready.ogg": "/assets/kr1/audio/Ranger_Ready.ogg",
+    "Ranger_Taunt1.ogg": "/assets/kr1/audio/Ranger_Taunt1.ogg",
+    "Ranger_Taunt2.ogg": "/assets/kr1/audio/Ranger_Taunt2.ogg",
+    "Elf_Taun1.ogg": "/assets/kr1/audio/Elf_Taun1.ogg",
+    "Elf_Taun2.ogg": "/assets/kr1/audio/Elf_Taun2.ogg",
+    "Sound_Thorn.ogg": "/assets/kr1/audio/Sound_Thorn.ogg",
+    "Arcane_Taunt2.ogg": "/assets/kr1/audio/Arcane_Taunt2.ogg",
+    "Arcane_Taunt1.ogg": "/assets/kr1/audio/Arcane_Taunt1.ogg",
+    "Paladin_Ready.ogg": "/assets/kr1/audio/Paladin_Ready.ogg",
+    "Paladin_Taunt2.ogg": "/assets/kr1/audio/Paladin_Taunt2.ogg",
+    "Paladin_Taunt1.ogg": "/assets/kr1/audio/Paladin_Taunt1.ogg",
+    "Arcane_Ready.ogg": "/assets/kr1/audio/Arcane_Ready.ogg",
+    "Paladin_Move.ogg": "/assets/kr1/audio/Paladin_Move.ogg",
+    "Sound_RayArcane.ogg": "/assets/kr1/audio/Sound_RayArcane.ogg",
+    "Sound_ArcaneDesintegrate.ogg": "/assets/kr1/audio/Sound_ArcaneDesintegrate.ogg",
+    "Sound_Teleport.ogg": "/assets/kr1/audio/Sound_Teleport.ogg",
+    "Sound_PaladinHeal.ogg": "/assets/kr1/audio/Sound_PaladinHeal.ogg",
+    "Sound_JuggernautDeath.ogg": "/assets/kr1/audio/Sound_JuggernautDeath.ogg",
+    "Sound_RocketLaunt.ogg": "/assets/kr1/audio/Sound_RocketLaunt.ogg",
+    "Muskateer_Ready.ogg": "/assets/kr1/audio/Muskateer_Ready.ogg",
+    "Muskateer_Event1.ogg": "/assets/kr1/audio/Muskateer_Event1.ogg",
+    "Muskateer_Event2.ogg": "/assets/kr1/audio/Muskateer_Event2.ogg",
+    "Muskateer_Snipe.ogg": "/assets/kr1/audio/Muskateer_Snipe.ogg",
+    "Sound_Shootgun.ogg": "/assets/kr1/audio/Sound_Shootgun.ogg",
+    "Sound_Sniper.ogg": "/assets/kr1/audio/Sound_Sniper.ogg",
+    "Sound_Shrapnel.ogg": "/assets/kr1/audio/Sound_Shrapnel.ogg",
+    "Sound_EnemyTrollDead.ogg": "/assets/kr1/audio/Sound_EnemyTrollDead.ogg",
+    "BFG_Ready.ogg": "/assets/kr1/audio/BFG_Ready.ogg",
+    "BFG_Taunt2.ogg": "/assets/kr1/audio/BFG_Taunt2.ogg",
+    "BFG_Taunt1.ogg": "/assets/kr1/audio/BFG_Taunt1.ogg",
+    "Barbarian_Ready.ogg": "/assets/kr1/audio/Barbarian_Ready.ogg",
+    "Barbarian_Taunt1.ogg": "/assets/kr1/audio/Barbarian_Taunt1.ogg",
+    "Barbarian_Taunt2.ogg": "/assets/kr1/audio/Barbarian_Taunt2.ogg",
+    "Barbarian_Move.ogg": "/assets/kr1/audio/Barbarian_Move.ogg",
+    "Sound_BattleAxe.ogg": "/assets/kr1/audio/Sound_BattleAxe.ogg",
+    "Sound_Chieftain.ogg": "/assets/kr1/audio/Sound_Chieftain.ogg",
+    "Sound_CommonAreaHit.ogg": "/assets/kr1/audio/Sound_CommonAreaHit.ogg",
+    "Sound_TowerSoldierSasquashReady.ogg": "/assets/kr1/audio/Sound_TowerSoldierSasquashReady.ogg",
+    "Sound_TowerSoldierSasquashRally.ogg": "/assets/kr1/audio/Sound_TowerSoldierSasquashRally.ogg",
+    "Sorcerer_Ready.ogg": "/assets/kr1/audio/Sorcerer_Ready.ogg",
+    "Sorcerer_Taunt1.ogg": "/assets/kr1/audio/Sorcerer_Taunt1.ogg",
+    "Sorcerer_Taunt2.ogg": "/assets/kr1/audio/Sorcerer_Taunt2.ogg",
+    "Sound_Sorcerer.ogg": "/assets/kr1/audio/Sound_Sorcerer.ogg",
+    "Sound_Polimorph.ogg": "/assets/kr1/audio/Sound_Polimorph.ogg",
+    "Sound_RockElementalDeath.ogg": "/assets/kr1/audio/Sound_RockElementalDeath.ogg",
+    "Sound_RockElementalRally.ogg": "/assets/kr1/audio/Sound_RockElementalRally.ogg",
+    "Sound_EnemyRocketeer.ogg": "/assets/kr1/audio/Sound_EnemyRocketeer.ogg",
+    "Sound_Sheep.ogg": "/assets/kr1/audio/Sound_Sheep.ogg",
+    "Sound_EnemyJtAttack.ogg": "/assets/kr1/audio/Sound_EnemyJtAttack.ogg",
+    "Sound_EnemyJtDeath.ogg": "/assets/kr1/audio/Sound_EnemyJtDeath.ogg",
+    "Sound_EnemyJtEat.ogg": "/assets/kr1/audio/Sound_EnemyJtEat.ogg",
+    "Sound_EnemyJtExplode.ogg": "/assets/kr1/audio/Sound_EnemyJtExplode.ogg",
+    "Sound_HitIce1.ogg": "/assets/kr1/audio/Sound_HitIce1.ogg",
+    "Sound_HitIce2.ogg": "/assets/kr1/audio/Sound_HitIce2.ogg",
+    "Sound_HitIce3.ogg": "/assets/kr1/audio/Sound_HitIce3.ogg",
+    "Sound_EnemyJtRest.ogg": "/assets/kr1/audio/Sound_EnemyJtRest.ogg",
+    "Tesla_Ready.ogg": "/assets/kr1/audio/Tesla_Ready.ogg",
+    "Tesla_Taunt2a.ogg": "/assets/kr1/audio/Tesla_Taunt2a.ogg",
+    "Tesla_Taunt2b.ogg": "/assets/kr1/audio/Tesla_Taunt2b.ogg",
+    "Tesla_Taunt2c.ogg": "/assets/kr1/audio/Tesla_Taunt2c.ogg",
+    "Tesla_Taunt1.ogg": "/assets/kr1/audio/Tesla_Taunt1.ogg",
+    "Sound_Tesla_attack_1.ogg": "/assets/kr1/audio/Sound_Tesla_attack_1.ogg",
+    "Sound_Tesla_attack_2.ogg": "/assets/kr1/audio/Sound_Tesla_attack_2.ogg",
+    "Sound_EnemySkeletonBreak2.ogg": "/assets/kr1/audio/Sound_EnemySkeletonBreak2.ogg",
+    "Sound_EnemyExplode1ShortA.ogg": "/assets/kr1/audio/Sound_EnemyExplode1ShortA.ogg",
+    "kr4_sfx_juggernaut_punch_var1_v1.ogg": "/assets/kr1/audio/kr4_sfx_juggernaut_punch_var1_v1.ogg",
+    "MusicBossFight.ogg": "/assets/kr1/audio/MusicBossFight.ogg",
+    "Sound_EnemyVeznan_attack.ogg": "/assets/kr1/audio/Sound_EnemyVeznan_attack.ogg",
+    "Sound_EnemyVeznan_death.ogg": "/assets/kr1/audio/Sound_EnemyVeznan_death.ogg",
+    "Sound_EnemyVeznan_demonFire.ogg": "/assets/kr1/audio/Sound_EnemyVeznan_demonFire.ogg",
+    "Sound_SpellTowerHold_Cast.ogg": "/assets/kr1/audio/Sound_SpellTowerHold_Cast.ogg",
+    "Sound_SpellTowerHold_Dissipate.ogg": "/assets/kr1/audio/Sound_SpellTowerHold_Dissipate.ogg",
+    "Sound_SpellTowerHold_Hit.ogg": "/assets/kr1/audio/Sound_SpellTowerHold_Hit.ogg",
+    "Sound_SpellTowerHold_Trap.ogg": "/assets/kr1/audio/Sound_SpellTowerHold_Trap.ogg",
+    "Sound_DemonPortal_Telein.ogg": "/assets/kr1/audio/Sound_DemonPortal_Telein.ogg",
+    "Sound_DemonPortal_Summon.ogg": "/assets/kr1/audio/Sound_DemonPortal_Summon.ogg",
+    "Sound_EnemyVeznan_toDemon.ogg": "/assets/kr1/audio/Sound_EnemyVeznan_toDemon.ogg",
+    "swamp-thing-shot.ogg": "/assets/kr1/audio/swamp-thing-shot.ogg",
+    "Hero_Karkinos_Cannon_explosion.ogg": "/assets/kr1/audio/Hero_Karkinos_Cannon_explosion.ogg",
+    "inferno_boss_death.ogg": "/assets/kr1/audio/inferno_boss_death.ogg",
+    "inferno_boss_stomp.ogg": "/assets/kr1/audio/inferno_boss_stomp.ogg",
+    "inferno_boss_horns.ogg": "/assets/kr1/audio/inferno_boss_horns.ogg",
+    "KR_sfx_mushroomboss_gas_op1.ogg": "/assets/kr1/audio/KR_sfx_mushroomboss_gas_op1.ogg",
+    "KR_sfx_mushroomcreep_nacimiento.ogg": "/assets/kr1/audio/KR_sfx_mushroomcreep_nacimiento.ogg",
+    "KR_sfx_mushroomcreep_muerte_edit_vanzen.ogg": "/assets/kr1/audio/KR_sfx_mushroomcreep_muerte_edit_vanzen.ogg",
+    "KR_sfx_mushroomboss_muerte.ogg": "/assets/kr1/audio/KR_sfx_mushroomboss_muerte.ogg",
+    "kr_sfx_cb_giantrats1.ogg": "/assets/kr1/audio/kr_sfx_cb_giantrats1.ogg",
+    "kr_sfx_cb_giantrats2.ogg": "/assets/kr1/audio/kr_sfx_cb_giantrats2.ogg",
+    "kr_sfx_cb_witch_fast.ogg": "/assets/kr1/audio/kr_sfx_cb_witch_fast.ogg",
+    "kr_sfx_cb_witch_slow.ogg": "/assets/kr1/audio/kr_sfx_cb_witch_slow.ogg",
+    "kr_sfx_cb_witchdeath.ogg": "/assets/kr1/audio/kr_sfx_cb_witchdeath.ogg",
+    "halloween_abominationexplosion.ogg": "/assets/kr1/audio/halloween_abominationexplosion.ogg",
+    "halloween_werewolf_alfawolf.ogg": "/assets/kr1/audio/halloween_werewolf_alfawolf.ogg",
+    "halloween_werewolf_transformation.ogg": "/assets/kr1/audio/halloween_werewolf_transformation.ogg",
+    "canibal_zombie_one.ogg": "/assets/kr1/audio/canibal_zombie_one.ogg",
+    "canibal_zombie_two.ogg": "/assets/kr1/audio/canibal_zombie_two.ogg",
+    "canibal_zombie_three.ogg": "/assets/kr1/audio/canibal_zombie_three.ogg",
+    "kr_sfx_cb_spectralknight[horn+organ].ogg": "/assets/kr1/audio/kr_sfx_cb_spectralknight[horn+organ].ogg",
+    "kr_sfx_cb_crow.ogg": "/assets/kr1/audio/kr_sfx_cb_crow.ogg",
+    "kr_sfx_cb_nessie.ogg": "/assets/kr1/audio/kr_sfx_cb_nessie.ogg",
+    "kr_ambience_cb_ghosts_1.ogg": "/assets/kr1/audio/kr_ambience_cb_ghosts_1.ogg",
+    "kr_ambience_cb_aquelarre.ogg": "/assets/kr1/audio/kr_ambience_cb_aquelarre.ogg",
+    "halloween_werewolf_minormoans.ogg": "/assets/kr1/audio/halloween_werewolf_minormoans.ogg",
+    "kr4_tower_wickedsisters_attack_v1.ogg": "/assets/kr1/audio/kr4_tower_wickedsisters_attack_v1.ogg",
+    "kr_sfx_cb_lordblackburn_death.ogg": "/assets/kr1/audio/kr_sfx_cb_lordblackburn_death.ogg",
+    "kr_sfx_cb_lordblackburn_swing.ogg": "/assets/kr1/audio/kr_sfx_cb_lordblackburn_swing.ogg",
+    "kr_sfx_cb_lordblackburn_specialstomp.ogg": "/assets/kr1/audio/kr_sfx_cb_lordblackburn_specialstomp.ogg",
+    "kr_sfx_endless_healingtotem_v3.ogg": "/assets/kr1/audio/kr_sfx_endless_healingtotem_v3.ogg",
+    "kr_sfx_endless_flametotem_v3.ogg": "/assets/kr1/audio/kr_sfx_endless_flametotem_v3.ogg",
+    "kr_sfx_endless_swiftnesstotem_v3.ogg": "/assets/kr1/audio/kr_sfx_endless_swiftnesstotem_v3.ogg",
+    "assassin_gold.ogg": "/assets/kr1/audio/assassin_gold.ogg"
+  },
+  "lazyFiles": [
+    "Arcane_Taunt2.ogg",
+    "Arcane_Taunt1.ogg",
+    "Paladin_Ready.ogg",
+    "Paladin_Taunt2.ogg",
+    "Paladin_Taunt1.ogg",
+    "Arcane_Ready.ogg",
+    "Paladin_Move.ogg",
+    "Sound_RayArcane.ogg",
+    "Sound_ArcaneDesintegrate.ogg",
+    "Sound_Teleport.ogg",
+    "Sound_PaladinHeal.ogg",
+    "Sound_JuggernautDeath.ogg",
+    "Sound_RocketLaunt.ogg",
+    "kr4_sfx_juggernaut_punch_var1_v1.ogg",
+    "MusicBossFight.ogg",
+    "Muskateer_Ready.ogg",
+    "Muskateer_Event1.ogg",
+    "Muskateer_Event2.ogg",
+    "Muskateer_Snipe.ogg",
+    "Sound_Shootgun.ogg",
+    "Sound_Sniper.ogg",
+    "Sound_Shrapnel.ogg",
+    "Sound_EnemyTrollDead.ogg",
+    "BFG_Ready.ogg",
+    "BFG_Taunt2.ogg",
+    "BFG_Taunt1.ogg",
+    "Barbarian_Ready.ogg",
+    "Barbarian_Taunt1.ogg",
+    "Barbarian_Taunt2.ogg",
+    "Barbarian_Move.ogg",
+    "Sound_BattleAxe.ogg",
+    "Sound_ArrowRelease3.ogg",
+    "Sound_Chieftain.ogg",
+    "Sound_CommonAreaHit.ogg",
+    "Sound_TowerSoldierSasquashReady.ogg",
+    "Sound_TowerSoldierSasquashRally.ogg",
+    "Sorcerer_Ready.ogg",
+    "Sorcerer_Taunt1.ogg",
+    "Sorcerer_Taunt2.ogg",
+    "Sound_Sorcerer.ogg",
+    "Sound_Polimorph.ogg",
+    "Sound_RockElementalDeath.ogg",
+    "Sound_RockElementalRally.ogg",
+    "Sound_EnemyRocketeer.ogg",
+    "Sound_Sheep.ogg",
+    "Sound_EnemyJtAttack.ogg",
+    "Sound_EnemyJtDeath.ogg",
+    "Sound_EnemyJtEat.ogg",
+    "Sound_EnemyJtExplode.ogg",
+    "Sound_HitIce1.ogg",
+    "Sound_HitIce2.ogg",
+    "Sound_HitIce3.ogg",
+    "Sound_EnemyJtRest.ogg",
+    "Tesla_Ready.ogg",
+    "Tesla_Taunt2a.ogg",
+    "Tesla_Taunt2b.ogg",
+    "Tesla_Taunt2c.ogg",
+    "Tesla_Taunt1.ogg",
+    "Sound_Tesla_attack_1.ogg",
+    "Sound_Tesla_attack_2.ogg",
+    "Sound_EnemySkeletonBreak2.ogg",
+    "Sound_EnemyVeznan_attack.ogg",
+    "Sound_EnemyVeznan_death.ogg",
+    "Sound_EnemyVeznan_demonFire.ogg",
+    "Sound_SpellTowerHold_Cast.ogg",
+    "Sound_SpellTowerHold_Dissipate.ogg",
+    "Sound_SpellTowerHold_Hit.ogg",
+    "Sound_SpellTowerHold_Trap.ogg",
+    "Sound_DemonPortal_Telein.ogg",
+    "Sound_DemonPortal_Summon.ogg",
+    "Sound_EnemyVeznan_toDemon.ogg",
+    "swamp-thing-shot.ogg",
+    "Hero_Karkinos_Cannon_explosion.ogg",
+    "inferno_boss_death.ogg",
+    "inferno_boss_stomp.ogg",
+    "inferno_boss_horns.ogg",
+    "KR_sfx_mushroomboss_gas_op1.ogg",
+    "KR_sfx_mushroomcreep_nacimiento.ogg",
+    "KR_sfx_mushroomcreep_muerte_edit_vanzen.ogg",
+    "KR_sfx_mushroomboss_muerte.ogg",
+    "kr_sfx_cb_giantrats1.ogg",
+    "kr_sfx_cb_giantrats2.ogg",
+    "kr_sfx_cb_witch_fast.ogg",
+    "kr_sfx_cb_witch_slow.ogg",
+    "kr_sfx_cb_witchdeath.ogg",
+    "halloween_abominationexplosion.ogg",
+    "halloween_werewolf_alfawolf.ogg",
+    "halloween_werewolf_transformation.ogg",
+    "canibal_zombie_one.ogg",
+    "canibal_zombie_two.ogg",
+    "canibal_zombie_three.ogg",
+    "kr_sfx_cb_spectralknight[horn+organ].ogg",
+    "kr_sfx_cb_crow.ogg",
+    "kr_sfx_cb_nessie.ogg",
+    "kr_ambience_cb_ghosts_1.ogg",
+    "kr_ambience_cb_aquelarre.ogg",
+    "halloween_werewolf_minormoans.ogg",
+    "kr4_tower_wickedsisters_attack_v1.ogg",
+    "kr_sfx_cb_lordblackburn_death.ogg",
+    "kr_sfx_cb_lordblackburn_swing.ogg",
+    "kr_sfx_cb_lordblackburn_specialstomp.ogg",
+    "kr_sfx_endless_healingtotem_v3.ogg",
+    "kr_sfx_endless_flametotem_v3.ogg",
+    "kr_sfx_endless_swiftnesstotem_v3.ogg",
+    "assassin_gold.ogg"
+  ],
+  "levelFiles": {
+    "6": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Sound_JuggernautDeath.ogg",
+      "Sound_RocketLaunt.ogg",
+      "kr4_sfx_juggernaut_punch_var1_v1.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "7": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg"
+    ],
+    "8": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg"
+    ],
+    "9": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "MusicBossFight.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "Sound_EnemyJtAttack.ogg",
+      "Sound_EnemyJtDeath.ogg",
+      "Sound_EnemyJtEat.ogg",
+      "Sound_EnemyJtExplode.ogg",
+      "Sound_HitIce1.ogg",
+      "Sound_HitIce2.ogg",
+      "Sound_HitIce3.ogg",
+      "Sound_EnemyJtRest.ogg"
+    ],
+    "10": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg"
+    ],
+    "11": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg"
+    ],
+    "12": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "Sound_EnemyVeznan_attack.ogg",
+      "Sound_EnemyVeznan_death.ogg",
+      "Sound_EnemyVeznan_demonFire.ogg",
+      "Sound_SpellTowerHold_Cast.ogg",
+      "Sound_SpellTowerHold_Dissipate.ogg",
+      "Sound_SpellTowerHold_Hit.ogg",
+      "Sound_SpellTowerHold_Trap.ogg",
+      "Sound_DemonPortal_Telein.ogg",
+      "Sound_DemonPortal_Summon.ogg",
+      "Sound_EnemyVeznan_toDemon.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "13": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "14": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "15": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "swamp-thing-shot.ogg",
+      "Hero_Karkinos_Cannon_explosion.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "16": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg"
+    ],
+    "17": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "Sound_JuggernautDeath.ogg",
+      "Sound_HitIce1.ogg",
+      "Sound_HitIce2.ogg",
+      "Sound_HitIce3.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "18": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "Sound_JuggernautDeath.ogg",
+      "Sound_HitIce1.ogg",
+      "Sound_HitIce2.ogg",
+      "Sound_HitIce3.ogg"
+    ],
+    "19": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "Sound_JuggernautDeath.ogg",
+      "Sound_HitIce1.ogg",
+      "Sound_HitIce2.ogg",
+      "Sound_HitIce3.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "20": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg"
+    ],
+    "21": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "inferno_boss_death.ogg",
+      "inferno_boss_stomp.ogg",
+      "inferno_boss_horns.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "22": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "KR_sfx_mushroomboss_gas_op1.ogg",
+      "KR_sfx_mushroomcreep_nacimiento.ogg",
+      "KR_sfx_mushroomcreep_muerte_edit_vanzen.ogg",
+      "KR_sfx_mushroomboss_muerte.ogg",
+      "swamp-thing-shot.ogg",
+      "Hero_Karkinos_Cannon_explosion.ogg",
+      "MusicBossFight.ogg"
+    ],
+    "23": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "kr_sfx_cb_giantrats1.ogg",
+      "kr_sfx_cb_giantrats2.ogg",
+      "kr_sfx_cb_witch_fast.ogg",
+      "kr_sfx_cb_witch_slow.ogg",
+      "kr_sfx_cb_witchdeath.ogg",
+      "halloween_abominationexplosion.ogg",
+      "halloween_werewolf_alfawolf.ogg",
+      "halloween_werewolf_transformation.ogg",
+      "canibal_zombie_one.ogg",
+      "canibal_zombie_two.ogg",
+      "canibal_zombie_three.ogg",
+      "kr_sfx_cb_spectralknight[horn+organ].ogg",
+      "kr_sfx_cb_crow.ogg",
+      "kr_sfx_cb_nessie.ogg",
+      "kr_ambience_cb_ghosts_1.ogg",
+      "kr_ambience_cb_aquelarre.ogg",
+      "halloween_werewolf_minormoans.ogg",
+      "kr4_tower_wickedsisters_attack_v1.ogg"
+    ],
+    "24": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "kr_sfx_cb_giantrats1.ogg",
+      "kr_sfx_cb_giantrats2.ogg",
+      "kr_sfx_cb_witch_fast.ogg",
+      "kr_sfx_cb_witch_slow.ogg",
+      "kr_sfx_cb_witchdeath.ogg",
+      "halloween_abominationexplosion.ogg",
+      "halloween_werewolf_alfawolf.ogg",
+      "halloween_werewolf_transformation.ogg",
+      "canibal_zombie_one.ogg",
+      "canibal_zombie_two.ogg",
+      "canibal_zombie_three.ogg",
+      "kr_sfx_cb_spectralknight[horn+organ].ogg",
+      "kr_sfx_cb_crow.ogg",
+      "kr_sfx_cb_nessie.ogg",
+      "kr_ambience_cb_ghosts_1.ogg",
+      "kr_ambience_cb_aquelarre.ogg",
+      "halloween_werewolf_minormoans.ogg",
+      "kr4_tower_wickedsisters_attack_v1.ogg"
+    ],
+    "25": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "kr_sfx_cb_giantrats1.ogg",
+      "kr_sfx_cb_giantrats2.ogg",
+      "kr_sfx_cb_witch_fast.ogg",
+      "kr_sfx_cb_witch_slow.ogg",
+      "kr_sfx_cb_witchdeath.ogg",
+      "halloween_abominationexplosion.ogg",
+      "halloween_werewolf_alfawolf.ogg",
+      "halloween_werewolf_transformation.ogg",
+      "canibal_zombie_one.ogg",
+      "canibal_zombie_two.ogg",
+      "canibal_zombie_three.ogg",
+      "kr_sfx_cb_spectralknight[horn+organ].ogg",
+      "kr_sfx_cb_crow.ogg",
+      "kr_sfx_cb_nessie.ogg",
+      "kr_ambience_cb_ghosts_1.ogg",
+      "kr_ambience_cb_aquelarre.ogg",
+      "halloween_werewolf_minormoans.ogg",
+      "kr4_tower_wickedsisters_attack_v1.ogg"
+    ],
+    "26": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "kr_sfx_cb_giantrats1.ogg",
+      "kr_sfx_cb_giantrats2.ogg",
+      "kr_sfx_cb_witch_fast.ogg",
+      "kr_sfx_cb_witch_slow.ogg",
+      "kr_sfx_cb_witchdeath.ogg",
+      "halloween_abominationexplosion.ogg",
+      "halloween_werewolf_alfawolf.ogg",
+      "halloween_werewolf_transformation.ogg",
+      "canibal_zombie_one.ogg",
+      "canibal_zombie_two.ogg",
+      "canibal_zombie_three.ogg",
+      "kr_sfx_cb_spectralknight[horn+organ].ogg",
+      "kr_sfx_cb_crow.ogg",
+      "kr_sfx_cb_nessie.ogg",
+      "kr_ambience_cb_ghosts_1.ogg",
+      "kr_ambience_cb_aquelarre.ogg",
+      "halloween_werewolf_minormoans.ogg",
+      "kr4_tower_wickedsisters_attack_v1.ogg",
+      "MusicBossFight.ogg",
+      "kr_sfx_cb_lordblackburn_death.ogg",
+      "kr_sfx_cb_lordblackburn_swing.ogg",
+      "kr_sfx_cb_lordblackburn_specialstomp.ogg"
+    ],
+    "85": [
+      "Arcane_Taunt2.ogg",
+      "Arcane_Taunt1.ogg",
+      "Paladin_Ready.ogg",
+      "Paladin_Taunt2.ogg",
+      "Paladin_Taunt1.ogg",
+      "Arcane_Ready.ogg",
+      "Paladin_Move.ogg",
+      "Sound_RayArcane.ogg",
+      "Sound_ArcaneDesintegrate.ogg",
+      "Sound_Teleport.ogg",
+      "Sound_PaladinHeal.ogg",
+      "Muskateer_Ready.ogg",
+      "Muskateer_Event1.ogg",
+      "Muskateer_Event2.ogg",
+      "Muskateer_Snipe.ogg",
+      "Sound_Shootgun.ogg",
+      "Sound_Sniper.ogg",
+      "Sound_Shrapnel.ogg",
+      "Sound_EnemyTrollDead.ogg",
+      "Sound_RocketLaunt.ogg",
+      "BFG_Ready.ogg",
+      "BFG_Taunt2.ogg",
+      "BFG_Taunt1.ogg",
+      "Barbarian_Ready.ogg",
+      "Barbarian_Taunt1.ogg",
+      "Barbarian_Taunt2.ogg",
+      "Barbarian_Move.ogg",
+      "Sound_BattleAxe.ogg",
+      "Sound_ArrowRelease3.ogg",
+      "Sound_Chieftain.ogg",
+      "Sound_CommonAreaHit.ogg",
+      "Sound_TowerSoldierSasquashReady.ogg",
+      "Sound_TowerSoldierSasquashRally.ogg",
+      "Tesla_Ready.ogg",
+      "Tesla_Taunt2a.ogg",
+      "Tesla_Taunt2b.ogg",
+      "Tesla_Taunt2c.ogg",
+      "Tesla_Taunt1.ogg",
+      "Sound_Tesla_attack_1.ogg",
+      "Sound_Tesla_attack_2.ogg",
+      "Sound_EnemySkeletonBreak2.ogg",
+      "Sorcerer_Ready.ogg",
+      "Sorcerer_Taunt1.ogg",
+      "Sorcerer_Taunt2.ogg",
+      "Sound_Sorcerer.ogg",
+      "Sound_Polimorph.ogg",
+      "Sound_RockElementalDeath.ogg",
+      "Sound_RockElementalRally.ogg",
+      "Sound_EnemyRocketeer.ogg",
+      "Sound_Sheep.ogg",
+      "Sound_JuggernautDeath.ogg",
+      "kr_sfx_endless_healingtotem_v3.ogg",
+      "kr_sfx_endless_flametotem_v3.ogg",
+      "kr_sfx_endless_swiftnesstotem_v3.ogg",
+      "assassin_gold.ogg"
+    ]
+  }
+}

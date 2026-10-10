@@ -1,0 +1,472 @@
+{
+  "frames": {
+    "homeMenu_confirm_menu_0001": {
+      "rect": [
+        2,
+        2,
+        671,
+        218
+      ],
+      "size": [
+        720,
+        260
+      ],
+      "trim": [
+        25,
+        20,
+        24,
+        22
+      ]
+    },
+    "main_menu_banner_bg": {
+      "rect": [
+        675,
+        2,
+        485,
+        487
+      ],
+      "size": [
+        672,
+        543
+      ],
+      "trim": [
+        0,
+        25,
+        187,
+        31
+      ]
+    },
+    "main_menu_icon_heroic": {
+      "rect": [
+        1162,
+        2,
+        24,
+        22
+      ],
+      "size": [
+        24,
+        24
+      ],
+      "trim": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "main_menu_icon_iron": {
+      "rect": [
+        1188,
+        2,
+        19,
+        23
+      ],
+      "size": [
+        24,
+        24
+      ],
+      "trim": [
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    "main_menu_icon_star": {
+      "rect": [
+        1209,
+        2,
+        22,
+        21
+      ],
+      "size": [
+        24,
+        24
+      ],
+      "trim": [
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    "main_menu_quit_down": {
+      "rect": [
+        1233,
+        2,
+        169,
+        63
+      ],
+      "size": [
+        175,
+        73
+      ],
+      "trim": [
+        3,
+        8,
+        3,
+        2
+      ]
+    },
+    "main_menu_quit_normal": {
+      "rect": [
+        1404,
+        2,
+        171,
+        70
+      ],
+      "size": [
+        175,
+        73
+      ],
+      "trim": [
+        3,
+        1,
+        1,
+        2
+      ]
+    },
+    "main_menu_slot_close_down": {
+      "rect": [
+        1577,
+        2,
+        26,
+        25
+      ],
+      "size": [
+        36,
+        33
+      ],
+      "trim": [
+        3,
+        6,
+        7,
+        2
+      ]
+    },
+    "main_menu_slot_close_hover": {
+      "rect": [
+        1605,
+        2,
+        32,
+        32
+      ],
+      "size": [
+        36,
+        33
+      ],
+      "trim": [
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    "main_menu_slot_close_normal": {
+      "rect": [
+        1639,
+        2,
+        26,
+        26
+      ],
+      "size": [
+        36,
+        33
+      ],
+      "trim": [
+        5,
+        3,
+        5,
+        4
+      ]
+    },
+    "main_menu_slot_down": {
+      "rect": [
+        1667,
+        2,
+        196,
+        100
+      ],
+      "size": [
+        204,
+        109
+      ],
+      "trim": [
+        3,
+        7,
+        5,
+        2
+      ]
+    },
+    "main_menu_slot_normal": {
+      "rect": [
+        2,
+        491,
+        200,
+        105
+      ],
+      "size": [
+        204,
+        109
+      ],
+      "trim": [
+        3,
+        2,
+        1,
+        2
+      ]
+    },
+    "main_menu_slots_bg": {
+      "rect": [
+        204,
+        491,
+        278,
+        385
+      ],
+      "size": [
+        672,
+        543
+      ],
+      "trim": [
+        380,
+        59,
+        14,
+        99
+      ]
+    },
+    "main_menu_t_new_game_down_zh-Hans": {
+      "rect": [
+        484,
+        491,
+        107,
+        32
+      ],
+      "size": [
+        167,
+        42
+      ],
+      "trim": [
+        22,
+        10,
+        38,
+        0
+      ]
+    },
+    "main_menu_t_new_game_hover_zh-Hans": {
+      "rect": [
+        593,
+        491,
+        114,
+        40
+      ],
+      "size": [
+        167,
+        42
+      ],
+      "trim": [
+        23,
+        2,
+        30,
+        0
+      ]
+    },
+    "main_menu_t_new_game_normal_zh-Hans": {
+      "rect": [
+        709,
+        491,
+        107,
+        36
+      ],
+      "size": [
+        167,
+        42
+      ],
+      "trim": [
+        26,
+        6,
+        34,
+        0
+      ]
+    },
+    "main_menu_t_slot_1_down_zh-Hans": {
+      "rect": [
+        818,
+        491,
+        84,
+        28
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        1,
+        14,
+        53,
+        0
+      ]
+    },
+    "main_menu_t_slot_1_hover_zh-Hans": {
+      "rect": [
+        904,
+        491,
+        90,
+        36
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        3,
+        6,
+        45,
+        0
+      ]
+    },
+    "main_menu_t_slot_1_normal_zh-Hans": {
+      "rect": [
+        996,
+        491,
+        84,
+        31
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        5,
+        10,
+        49,
+        1
+      ]
+    },
+    "main_menu_t_slot_2_down_zh-Hans": {
+      "rect": [
+        1082,
+        491,
+        89,
+        28
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        1,
+        14,
+        48,
+        0
+      ]
+    },
+    "main_menu_t_slot_2_hover_zh-Hans": {
+      "rect": [
+        1173,
+        491,
+        95,
+        36
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        3,
+        6,
+        40,
+        0
+      ]
+    },
+    "main_menu_t_slot_2_normal_zh-Hans": {
+      "rect": [
+        1270,
+        491,
+        89,
+        32
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        5,
+        9,
+        44,
+        1
+      ]
+    },
+    "main_menu_t_slot_3_down_zh-Hans": {
+      "rect": [
+        1361,
+        491,
+        89,
+        29
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        1,
+        13,
+        48,
+        0
+      ]
+    },
+    "main_menu_t_slot_3_hover_zh-Hans": {
+      "rect": [
+        1452,
+        491,
+        95,
+        36
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        3,
+        6,
+        40,
+        0
+      ]
+    },
+    "main_menu_t_slot_3_normal_zh-Hans": {
+      "rect": [
+        1549,
+        491,
+        89,
+        32
+      ],
+      "size": [
+        138,
+        42
+      ],
+      "trim": [
+        5,
+        9,
+        44,
+        1
+      ]
+    },
+    "main_options_bg_notxt": {
+      "rect": [
+        2,
+        878,
+        672,
+        365
+      ],
+      "size": [
+        700,
+        370
+      ],
+      "trim": [
+        14,
+        1,
+        14,
+        4
+      ]
+    }
+  }
+}

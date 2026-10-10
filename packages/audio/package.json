@@ -1,0 +1,10 @@
+{
+  "name": "@kingdom-rush/audio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@kingdom-rush/asset-runtime": "workspace:*"
+  }
+}

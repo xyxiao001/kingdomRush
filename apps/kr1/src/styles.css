@@ -1,0 +1,26 @@
+@import '@kingdom-rush/game-web/title.css';
+html,body,#app{width:100%;height:100%;margin:0;overflow:hidden;background:#000}
+#app{display:flex;align-items:center;justify-content:center;touch-action:none;user-select:none}
+canvas{display:block;width:100%;height:100%;outline:none}
+
+html,body,#app,canvas,#loading,#loading * { cursor: none; }
+#game-cursor{position:fixed;left:0;top:0;width:48px;height:48px;z-index:200;pointer-events:none;background:url('/assets/kr1/cursors/hand.png') no-repeat;will-change:transform}
+#game-cursor[data-state="pressed"]{background-position:-48px 0}
+#game-cursor[hidden],#game-cursor[data-state="target"]{display:none}
+
+.pwa-dialog{box-sizing:border-box;width:min(520px,90vw);max-height:90vh;padding:28px;color:#ece6c3;background:#192116;border:4px solid #807249;border-radius:16px;box-shadow:0 12px 60px #000a;font:16px/1.65 system-ui,sans-serif}
+.pwa-dialog::backdrop{background:#000a}
+.pwa-dialog,.pwa-dialog *{cursor:auto}
+.pwa-dialog h2{margin:0 0 12px;color:#dbc18a;font-size:25px}
+.pwa-dialog p{margin:12px 0}
+.pwa-dialog button{padding:9px 18px;color:#f5e5b0;background:#38472b;border:2px solid #918457;border-radius:8px;font:inherit;cursor:pointer}
+.pwa-dialog button:hover:not(:disabled){background:#4e6238}
+.pwa-dialog button:disabled{opacity:.55;cursor:default}
+.pwa-dialog button:focus-visible{outline:2px solid #f5db84;outline-offset:3px}
+.pwa-actions{display:flex;justify-content:space-between;gap:12px;margin-top:22px}
+#pwa-cache,#pwa-update-status{font-size:13px;color:#bcb897}
+
+#title-screen,#title-screen *{cursor:none}
+#title-screen:has(#title-games:popover-open),#title-screen:has(#title-games:popover-open) *,#title-screen:has(.title-delete-dialog[open]),#title-screen:has(.title-delete-dialog[open]) *{cursor:url('/assets/kr1/cursors/hand-0001.png') 3 2,auto}
+#title-screen:has(#title-games:popover-open) button:active,#title-screen:has(.title-delete-dialog[open]) button:active{cursor:url('/assets/kr1/cursors/hand-0002.png') 3 2,auto}
+body:has(#title-games:popover-open) #game-cursor,body:has(.title-delete-dialog[open]) #game-cursor{display:none}

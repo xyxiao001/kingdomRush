@@ -1,0 +1,223 @@
+[
+  {
+    "id": "gerald",
+    "name": "杰拉尔德爵士",
+    "portrait": 33,
+    "hudPortrait": "heroPortrait_portraits_0002",
+    "infoPortrait": "info_portraits_hero_0005",
+    "description": "正义的守护者， 黑暗的惩戒者， 无辜民众的保护者， 邪魔歪道的粉碎者， 光之追寻者杰拉尔德堪称利尼维亚军队中最异乎寻常的人物！",
+    "skillsDescription": "鼓舞， 惩戒之盾",
+    "title": "逐光者",
+    "health": 400,
+    "armor": 0.3,
+    "damage": [
+      11,
+      18
+    ],
+    "speed": 66
+  },
+  {
+    "id": "alleria",
+    "name": "艾莉瑞雅·迅风",
+    "portrait": 35,
+    "hudPortrait": "heroPortrait_portraits_0004",
+    "infoPortrait": "info_portraits_hero_0001",
+    "description": "寂静如黑夜， 轻灵如羽毛， 致命而美丽。倾倒在她迷人眼眸下的人多不胜数， 而亡命于她夺命弓箭下的人， 更是不计其数。",
+    "skillsDescription": "多重射击， 野性呼唤",
+    "title": "精灵公主",
+    "health": 250,
+    "armor": 0,
+    "damage": [
+      7,
+      12
+    ],
+    "speed": 90
+  },
+  {
+    "id": "malik",
+    "name": "马利克·愤怒之锤",
+    "portrait": 34,
+    "hudPortrait": "heroPortrait_portraits_0001",
+    "infoPortrait": "info_portraits_hero_0006",
+    "description": "一位来自遥远大陆的英雄， 拥有无可匹敌的力量， 桀骜不驯的精神和坚不可摧的意志。一道毁天灭地力量， 一股毫无束缚的狂怒， 一种勇往直前的态度！",
+    "skillsDescription": "粉碎重锤， 地震",
+    "title": "重锤领主",
+    "health": 450,
+    "armor": 0,
+    "damage": [
+      14,
+      22
+    ],
+    "speed": 60
+  },
+  {
+    "id": "bolin",
+    "name": "火炮杀手博林",
+    "portrait": 36,
+    "hudPortrait": "heroPortrait_portraits_0003",
+    "infoPortrait": "info_portraits_hero_0002",
+    "description": "这位神枪手的枪术， 就连雷电也无法媲美！\n释放枪林弹雨， 布设地雷矩阵， 敌人哪敢越雷池半步！",
+    "skillsDescription": "布雷专家， 焦油炸弹",
+    "title": "矮人火枪手",
+    "health": 400,
+    "armor": 0,
+    "damage": [
+      9,
+      15
+    ],
+    "speed": 60
+  },
+  {
+    "id": "magnus",
+    "name": "马格纳斯·灾祸魔导",
+    "portrait": 37,
+    "hudPortrait": "heroPortrait_portraits_0005",
+    "infoPortrait": "info_portraits_hero_0004",
+    "description": "解除利尼维亚的奥术力量禁制， 释放神秘风暴， 镇压你的敌人！一切只凭他的奥术秘法和对知识的渴求。",
+    "skillsDescription": "幻影， 奥术风暴",
+    "title": "奥术巫师",
+    "health": 170,
+    "armor": 0,
+    "damage": [
+      9,
+      27
+    ],
+    "speed": 36
+  },
+  {
+    "id": "ignus",
+    "name": "炎之魔神",
+    "portrait": 38,
+    "hudPortrait": "heroPortrait_portraits_0006",
+    "infoPortrait": "info_portraits_hero_0003",
+    "description": "以群星烈火焚尽王国的敌人！以炼狱之火吞噬一切邪恶， 以愤怒烈焰铸就最终胜利！",
+    "skillsDescription": "烈焰喷涌， 暴怒狂焰",
+    "title": "炎之魔神",
+    "health": 400,
+    "armor": 0,
+    "damage": [
+      18,
+      30
+    ],
+    "speed": 90
+  },
+  {
+    "id": "denas",
+    "name": "迪纳斯国王",
+    "portrait": 39,
+    "hudPortrait": "heroPortrait_portraits_0007",
+    "infoPortrait": "info_portraits_hero_0008",
+    "description": "陛下本人便是为战场带来力量与勇气的源泉。国王万岁！",
+    "skillsDescription": "皇家号令， 投石弹幕",
+    "title": "王国君主",
+    "health": 300,
+    "armor": 0,
+    "damage": [
+      11,
+      19
+    ],
+    "speed": 60
+  },
+  {
+    "id": "elora",
+    "name": "伊罗拉·冬之歌",
+    "portrait": 40,
+    "hudPortrait": "heroPortrait_portraits_0008",
+    "infoPortrait": "info_portraits_hero_0009",
+    "description": "如果说， 魔法由寒冰构成， 便会融化， 流经她的血脉， 然后再次冻结。她精通寒冰， 却也极度无情， 但凡有阻挡者， 都会被她冻成冰雕， 击个粉碎！",
+    "skillsDescription": "永恒冻土， 寒冰风暴",
+    "title": "冬歌女王",
+    "health": 270,
+    "armor": 0.2,
+    "damage": [
+      14,
+      41
+    ],
+    "speed": 90
+  },
+  {
+    "id": "ingvar",
+    "name": "英格瓦·熊爪",
+    "portrait": 41,
+    "hudPortrait": "heroPortrait_portraits_0009",
+    "infoPortrait": "info_portraits_hero_0010",
+    "description": "来自北方荒芜之地的凶猛战士， 掌控巨熊之力和先祖智慧， 身体与精神力量均无与伦比！",
+    "skillsDescription": "先祖召唤， 巨熊形态",
+    "title": "熊之咆哮",
+    "health": 430,
+    "armor": 0.1,
+    "damage": [
+      23,
+      38
+    ],
+    "speed": 75
+  },
+  {
+    "id": "hacksaw",
+    "name": "钢锯·哈克萨瓦",
+    "portrait": 42,
+    "hudPortrait": "heroPortrait_portraits_0010",
+    "infoPortrait": "info_portraits_hero_0012",
+    "description": "在地精发明家眼里， 巨大的橡树与庞大的敌人没有什么区别。坐上奇妙/精巧的巨型机甲， 他就能将一切拦路虎撕成碎片。让路...地精机甲开过来啦！",
+    "skillsDescription": "弹射锯片， 伐伐伐木！",
+    "title": "地精发明家",
+    "health": 420,
+    "armor": 0.5,
+    "damage": [
+      9,
+      27
+    ],
+    "speed": 54
+  },
+  {
+    "id": "oni",
+    "name": "鬼侍",
+    "portrait": 43,
+    "hudPortrait": "heroPortrait_portraits_0011",
+    "infoPortrait": "info_portraits_hero_0013",
+    "description": "冷酷无情的武士， 不知疲倦地寻求复仇。身着黑暗荣誉武士甲， 手执烈焰熊熊武士刀， 光听到他的名字， 就让恶魔军队闻风丧胆。",
+    "skillsDescription": "灭魂斩， 千本刃",
+    "title": "鬼武士",
+    "health": 425,
+    "armor": 0.3,
+    "damage": [
+      14,
+      41
+    ],
+    "speed": 81
+  },
+  {
+    "id": "thor",
+    "name": "索尔",
+    "portrait": 44,
+    "hudPortrait": "heroPortrait_portraits_0012",
+    "infoPortrait": "info_portraits_hero_0014",
+    "description": "这位身材高大的半神， 肉身由雷电构成， 挥舞着一把附有雷电之力的战锤。他是风暴之神的儿子， 也是迪纳斯国王的挚友。",
+    "skillsDescription": "雷神之锤， 雷霆一击",
+    "title": "雷神",
+    "health": 380,
+    "armor": 0.4,
+    "damage": [
+      25,
+      31
+    ],
+    "speed": 81
+  },
+  {
+    "id": "10yr",
+    "name": "天十",
+    "portrait": 45,
+    "hudPortrait": "heroPortrait_portraits_0013",
+    "infoPortrait": "info_portraits_hero_0015",
+    "description": "一个神话……一个传说……大师中的大师……能使用一切力量的人。天十是智慧与力量的典范。仅仅是他的存在，就让整个王国为之颤抖。更不用说激怒他的后果会是怎样了……",
+    "skillsDescription": "钢铁时间，火焰冲刺！",
+    "title": "宗师",
+    "health": 380,
+    "armor": 0.2,
+    "damage": [
+      14,
+      22
+    ],
+    "speed": 48
+  }
+]
